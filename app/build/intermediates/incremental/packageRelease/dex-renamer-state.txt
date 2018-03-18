@@ -1,0 +1,7 @@
+#Thu Feb 08 15:50:14 CST 2018
+base.0=/Users/luojialun/Desktop/LinGang/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/luojialun/Desktop/LinGang/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes2.dex
+base.1=/Users/luojialun/Desktop/LinGang/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+file.0=/Users/luojialun/Desktop/LinGang/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

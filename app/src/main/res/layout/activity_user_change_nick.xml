@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bg">
+    <EditText
+        android:id="@+id/user_nick_ed"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="16sp"
+        android:paddingLeft="15dp"
+        android:hint="请输入您的昵称"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:textColorHint="@color/black_40"
+        android:gravity="center_vertical"
+        android:background="@color/white"/>
+</LinearLayout>

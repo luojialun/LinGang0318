@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/ll_mating"
+    android:orientation="vertical">
+
+    <include layout="@layout/pop_btn_layout" />
+
+    <View
+        android:id="@+id/vv_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line" />
+
+    <include layout="@layout/recycle_nums" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lingang.view.AlignTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_10"
+    android:layout_marginLeft="@dimen/margin_15"
+    android:layout_marginRight="@dimen/margin_15"
+    android:layout_marginTop="@dimen/margin_10"
+    app:isColon="true"
+    app:lineSpacingExtra="@dimen/margin_10"
+    app:maxLines="6"
+    app:tvColor="@color/black"
+    app:tvSize="@dimen/text_14"/>

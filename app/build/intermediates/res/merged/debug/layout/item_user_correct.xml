@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lingang.view.SwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeMenuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/user_correct_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="13dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/user_correct_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/replay_iv"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textColor="@color/black_80"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/replay_iv"
+                android:layout_width="16dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/weihuifu" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/user_correct_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:drawableRight="@drawable/arrow_right"
+            android:text="16-11-14  20:30:00"
+            android:textColor="@color/black_40"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@color/f45751"
+        android:text="删除"
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+</com.lingang.view.SwipeMenuLayout>

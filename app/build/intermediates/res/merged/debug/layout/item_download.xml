@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/group_11" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/black_80"
+            android:textSize="16sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="2dp">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-11-14 20:30:00"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/done_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv_date"
+                android:text="下载完成"
+                android:textColor="@color/e87123"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tv_time"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="20:30:00"-->
+            <!--android:textSize="12sp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--/>-->
+
+            <TextView
+                android:id="@+id/tv_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="20M"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv_download_status"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:src="@mipmap/download_select"-->
+    <!--android:layout_marginRight="15dp"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:layout_marginBottom="6dp"-->
+    <!--/>-->
+
+    <FrameLayout
+        android:id="@+id/download_circle_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/download_circle_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/download_select"
+            android:visibility="gone" />
+
+        <com.lingang.view.CustomCircleProgress
+            android:id="@+id/download_circle_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:focusable="false"
+            android:padding="1dp"
+            app:circle_radius="14dp" />
+    </FrameLayout>
+</RelativeLayout>

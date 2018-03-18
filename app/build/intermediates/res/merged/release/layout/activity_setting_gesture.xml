@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_backgroud_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingRight="@dimen/margin_15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="使用手势密码"
+            android:textColor="@color/black_70"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/switch_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/switch_bg"/>
+
+        <!--<com.lingang.view.SlideSwitch-->
+            <!--android:id="@+id/setting_gesture_switch"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--app:isOpen="false"-->
+            <!--app:shape="circle"-->
+            <!--app:themeColor="@color/word_orange_color_F57725" />-->
+    </RelativeLayout>
+
+
+    <com.lingang.view.SettingItem
+        android:layout_marginTop="1dp"
+        android:id="@+id/setting_modify_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:itemText="修改手势密码"
+        app:itemTextColor="@color/black_70"
+        app:showLeftDrawable="gone"
+        android:visibility="gone"/>
+</LinearLayout>

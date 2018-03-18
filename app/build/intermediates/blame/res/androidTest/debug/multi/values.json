@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 67,
+                    "endOffset": 118
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/generated/res/resValues/androidTest/debug/values/generated.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 67,
+                        "endOffset": 218
+                    }
+                }
+            }
+        ]
+    }
+]

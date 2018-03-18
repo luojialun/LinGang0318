@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_backgroud_gray"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--热门搜索区域-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="14dp"
+                android:paddingLeft="@dimen/margin_15"
+                android:paddingRight="@dimen/margin_15"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="热门搜索"
+                    android:textColor="@color/black_50"
+                    android:textSize="15sp" />
+
+                <com.lingang.view.flowlayout.TagFlowLayout
+                    android:id="@+id/main_search_tagflowlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    app:gravity="left"
+                    app:max_select="1" />
+            </LinearLayout>
+
+            <!--搜索历史区域-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/margin_15"
+                android:paddingRight="@dimen/margin_15"
+                android:paddingTop="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="搜索历史"
+                    android:textColor="@color/black_50"
+                    android:textSize="15sp" />
+
+                <com.lingang.view.ExtraListView
+                    android:id="@+id/Home_search_listview"
+                    android:layout_width="match_parent"
+                    android:listSelector="@color/transparent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/black_10"
+                    android:dividerHeight="1px"
+                    android:fadeScrollbars="false"
+                    android:fadingEdgeLength="0dp"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_search_history_clear_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/black_10" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:paddingBottom="14dp"
+                    android:paddingTop="20dp"
+                    android:text="清空搜索历史"
+                    android:textColor="@color/black_40"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

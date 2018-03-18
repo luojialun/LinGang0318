@@ -1,0 +1,161 @@
+package com.lingang.fragment.home;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.google.gson.Gson;
+import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
+import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
+import com.lingang.R;
+import com.lingang.activity.home.NeedAc;
+import com.lingang.activity.home.NeedFlowReviewAc;
+import com.lingang.adapter.FlowProcessAdapter;
+import com.lingang.base.BaseFragment;
+import com.lingang.base.RecycleBaseAdapter;
+import com.lingang.bean.BaseEntity;
+import com.lingang.bean.FlowProcessBean;
+import com.lingang.common.LoginManager;
+import com.lingang.common.PagerHelper;
+import com.lingang.http.HttpApi;
+import com.lingang.http.ResCallBack;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.model.HttpParams;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import okhttp3.Call;
+import okhttp3.Response;
+
+/**
+ * Created by jason on 17/5/24.
+ * 办事流程
+ */
+public class NeedFlowFragment extends BaseFragment implements RecycleBaseAdapter.OnItemClickListener<FlowProcessBean.FlowProcess> {
+
+    @BindView(R.id.need_flow_rv)
+    RecyclerView needFlowRv;
+    @BindView(R.id.need_flow_refresh)
+    TwinklingRefreshLayout needFlowRefresh;
+    //分页
+    private PagerHelper pagerHelper;
+    //adpter
+    private FlowProcessAdapter flowProcessAdapter;
+
+    private List<FlowProcessBean.FlowProcess> dataList;
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_need_flow, null);
+        ButterKnife.bind(this, view);
+        return view;
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        pagerHelper = new PagerHelper(getContext(),0,50);
+        initView();
+    }
+
+    /*
+     *创建实例
+     */
+    public static NeedFlowFragment newInstance() {
+        NeedFlowFragment fragment = new NeedFlowFragment();
+        return fragment;
+    }
+
+    private void initView() {
+        //mStateView.showLoading();
+        dataList=new ArrayList<>();
+        flowProcessAdapter=new FlowProcessAdapter(getContext(),dataList);
+        flowProcessAdapter.setOnItemClickListener(this);
+        needFlowRv.setAdapter(flowProcessAdapter);
+
+        setRecycleSimpleStyle(needFlowRv,R.drawable.need_item_divider);
+        setRefreshHead(needFlowRefresh);
+        needFlowRefresh.startRefresh();
+        needFlowRefresh.setOnRefreshListener(new RefreshListenerAdapter() {
+            @Override
+            public void onRefresh(TwinklingRefreshLayout refreshLayout) {
+                dataList.clear();
+                pagerHelper.refreshPage();
+                getFlowProcess();
+            }
+
+            @Override
+            public void onLoadMore(TwinklingRefreshLayout refreshLayout) {
+                if(pagerHelper.loadMore()) {
+                    getFlowProcess();
+                }else
+                {
+                    refreshLayout.finishLoadmore();
+                }
+            }
+        });
+    }
+
+    @Override
+    public void onItemClick(View view, FlowProcessBean.FlowProcess item, int position) {
+        NeedFlowReviewAc.goToNeedFlowReviewAc(getContext(),item.getTASKID(),item.getTASKTopic());
+    }
+
+    /**
+     * 获取
+     */
+    private void getFlowProcess() {
+        HttpParams httpParams = new HttpParams();
+        httpParams.put("UserAccount", LoginManager.getInstance().getLoginAccount());//yedi
+        //httpParams.put("UserAccount", "yedi");
+        httpParams.put("pageSize", pagerHelper.getPageSize());
+        httpParams.put("pageIndex", pagerHelper.getPageIndex());
+        httpParams.put("token",LoginManager.getInstance().getToken());
+        OkGo.post(HttpApi.GetFlowProcess)
+                .params(httpParams)
+                .execute(new ResCallBack<BaseEntity<String, Object>>(getContext(),false) {
+                    @Override
+                    public void onCall(BaseEntity<String, Object> dataBean, Call call, Response response) {
+                        //mStateView.showContent();
+                        List<FlowProcessBean.FlowProcess> list;
+                        String result = dataBean.getData();
+                        if(!TextUtils.isEmpty(result))
+                        {
+                            FlowProcessBean flowProcessData=new Gson().fromJson(result.replaceAll("\\\\", ""), FlowProcessBean.class);
+                            if(flowProcessData !=null) {
+                                list = flowProcessData.getData();
+                                ((NeedAc)getActivity()).setTitle("待办流程"+"("+flowProcessData.getDatecount()+")");
+                                dataList.addAll(list);
+                                flowProcessAdapter.notifyDataSetChanged();
+                            }else
+                            {
+                                list=new ArrayList<FlowProcessBean.FlowProcess>();
+                            }
+                        }else
+                        {
+                            list=new ArrayList<FlowProcessBean.FlowProcess>();
+                        }
+
+                        if(pagerHelper.loadFinish(list.size()))
+                        {
+                            needFlowRefresh.finishRefreshing();
+                        }else
+                        {
+                            needFlowRefresh.finishLoadmore();
+                        }
+                    }
+
+                    @Override
+                    public void onError(Call call, Response response, Exception e) {
+                        super.onError(call, response, e);
+                    }
+                });
+    }
+}

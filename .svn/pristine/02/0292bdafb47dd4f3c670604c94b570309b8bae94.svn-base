@@ -1,0 +1,129 @@
+<resources>
+    <!--i_Lingang测试-->
+    <!--<string name="app_name">i_Lingang测试</string>-->
+    <string name="main_bottom_navigation_home">首页</string>
+    <string name="main_bottom_navigation_query">招商</string>
+    <string name="main_bottom_navigation_find">资讯</string>
+    <string name="main_bottom_navigation_my">我的</string>
+
+
+    <!--新闻-->
+    <string name="new_category_all">全部</string>
+    <string name="new_title">新闻资讯</string>
+
+    <string name="ranking_title">商机推荐榜(公司)</string>
+    <string name="ranking_title_personal">商机推荐榜(个人)</string>
+    <string name="ranking_title_fall">商机落地榜</string>
+    <string name="need_title">待办流程</string>
+
+    <string-array name="need_tab_title">
+        <item>待办流程</item>
+        <item>商机审核</item>
+        <item>纠错审核</item>
+        <item>意见反馈</item>
+    </string-array>
+    <!--待办事项-->
+    <string name="need_business_title">商机合同</string>
+    <string name="need_business_result_title">商机审核结果</string>
+    <string name="need_correction_title">纠错审核</string>
+    <string name="need_correction_result_title">纠错审核结果</string>
+    <string name="need_feedback_title">意见反馈</string>
+    <string name="need_feedback_result_title">意见反馈结果</string>
+    <string name="need_flow_title">流程跟踪</string>
+    <string name="need_flow_param_error">打开页面参数错误</string>
+    <!--通讯录-->
+    <string name="contacts_title">通信录</string>
+    <string name="contacts_company">集团本部</string>
+    <string name="contacts_dep">行政管理部</string>
+    <string name="contacts_search">搜索</string>
+
+    <!--全局搜索页面-->
+    <string name="global_search">全局搜索</string>
+    <string name="global_search_result">全局搜索结果页面</string>
+
+    <string name="loadedAll">已加载全部</string>
+
+    <!--我的-->
+    <string name="mine">我的</string>
+    <string name="head">头像</string>
+    <string name="setting">设置</string>
+    <string name="user_info">我的信息</string>
+    <string name="nick">昵称</string>
+
+    <string name="save">保存</string>
+    <string name="nick_empty">请输入昵称！</string>
+    <string name="suggest">提交</string>
+    <string name="suggest_feed">意见反馈</string>
+    <string name="suggest_details">反馈详情</string>
+    <string name="correct">我的纠错</string>
+    <string name="correct_details">纠错详情</string>
+
+    <string name="favorites">我的收藏</string>
+    <string name="mine_record">我的记录</string>
+    <string name="setting_gesture">手势密码设置</string>
+    <string name="gesture_login">手势登录</string>
+    <string name="gesture_unlock">手势解锁</string>
+    <string name="save_success">保存成功</string>
+    <!--///////////////////////////////////////////////手势密码提示文本/////////////////////////////-->
+    <!-- Gesture login activity -->
+    <string name="gesture_forget_gesture">忘记手势密码</string>
+    <string name="gesture_default">请输入手势密码</string>
+    <string name="gesture_error">密码错误</string>
+    <string name="update">强制更新</string>
+    <string name="gesture_correct">校验正确</string>
+
+    <!-- Create gesture activity -->
+    <string name="create_gesture_activity">CreateGestureActivity</string>
+    <string name="create_gesture_default">请绘制解锁图案</string>
+    <string name="create_gesture_correct">再次绘制解锁图案</string>
+    <string name="create_gesture_less_error">请连接至少4个点</string>
+    <string name="create_gesture_confirm_error">再次输入密码不一致</string>
+    <string name="create_gesture_confirm_correct">设置成功</string>
+    <string name="create_gesture_reset">重新设置</string>
+    <string name="can_not_find_version_name">未识别的版本</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">全部资料</string>
+    <string name="news_author">发布者: </string>
+    <string name="news_time">发布日期：</string>
+    <string name="news_look_time">浏览次数: </string>
+    <string name="policy_time">发布日期：</string>
+    <!--///////////////////////////////////////////////手势密码提示文本///////////////////////////-->
+    <string name="download_manager">下载管理</string>
+    <string name="download_my">我的下载</string>
+    <string name="download_all">全部资料</string>
+
+    <string name="like">收藏</string>
+    <string name="add_like">已收藏</string>
+    <string name="cancel_like">取消收藏成功</string>
+
+    <string name="flow_show_sub">查看详情</string>
+    <string name="flow_hide_sub">收起</string>
+    <string name="flow_process_time">处理时间:%1$s</string>
+    <string name="flow_stop_time">停留时间:%1$sh</string>
+    <string name="process_review">处理意见:%1$s</string>
+
+    <string name="user_app_share">应用分享</string>
+    <string name="text_empty">暂无数据！</string>
+    <string name="text_retry">出错了\n\n点击重试</string>
+    <string name="net_error">网络异常!</string>
+
+    <string name="my_execute">我的执行</string>
+
+    <string name="permission_failed">申请权限失败,部分功能无法使用!</string>
+    <string name="home_banner_normal_bg">file:///android_asset/bg_moren.png</string>
+
+
+    <string name="workAreaUnit">平方米</string>
+
+    <!--执行记录/补充说明-->
+
+    <string-array name="opp_update_execute_type">
+        <item>联系客户</item>
+        <item>实地带看</item>
+        <item>签订意向合同</item>
+        <item>签订正式合同</item>
+        <item>其它</item>
+    </string-array>
+
+</resources>

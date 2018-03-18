@@ -1,0 +1,296 @@
+package com.lingang.activity.user;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.FrameLayout;
+import android.widget.TextView;
+
+import com.lingang.App;
+import com.lingang.R;
+import com.lingang.activity.MainActivity;
+import com.lingang.activity.login.LoginAc;
+import com.lingang.base.BaseAc;
+import com.lingang.bean.BaseEntity;
+import com.lingang.bean.DataMapLoginBean;
+import com.lingang.bean.LoginBase;
+import com.lingang.bean.UserInfo;
+import com.lingang.common.Constants;
+import com.lingang.common.LoginManager;
+import com.lingang.http.HttpApi;
+import com.lingang.http.ResCallBack;
+import com.lingang.utils.AppManager;
+import com.lingang.utils.MD5Util;
+import com.lingang.utils.SPUtils;
+import com.lingang.utils.ToastUtils;
+import com.lingang.view.gesturelock.ACache;
+import com.lingang.view.gesturelock.LockPatternView;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.model.HttpParams;
+
+import java.util.List;
+
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import okhttp3.Call;
+import okhttp3.Request;
+import okhttp3.Response;
+
+/**
+ * 手势登录页
+ */
+public class GestureLockLoginActivity extends BaseAc {
+
+    private static final String TAG = "GestureLockLoginActivity";
+    //    @BindView(R.id.setting_gesture_title_bar)
+//    TitleBar settingGestureTitleBar;
+    //    @BindView(R.id.gesture_lock_login_lock_pattern_indicator)
+//    LockPatternIndicator lockPatternIndicator;
+//    @BindView(R.id.gesture_lock_login_lock_pattern_indicator_container)
+//    FrameLayout gestureLockLoginLockPatternIndicatorContainer;
+    @BindView(R.id.gesture_lock_login_tip_tv)
+    TextView messageTv;
+    @BindView(R.id.gesture_lock_login_lockpatternview)
+    LockPatternView lockPatternView;
+    @BindView(R.id.gesture_lock_login_lockpatternview_container)
+    FrameLayout gestureLockLoginLockpatternviewContainer;
+    @BindView(R.id.gesture_lock_login_user)
+    TextView gestureLockLoginUser;
+    private ACache aCache;
+    private static final long DELAYTIME = 600l;
+    private String gesturePassword;
+    private boolean isFromNotification;
+    private int fromLogin;
+    //是否是手势登录页跳转至登录页面
+    private boolean isGestureShipLogin = false;
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        contentView(R.layout.activity_gesture_lock_login);
+        getLeftView().setVisibility(View.GONE);
+        ButterKnife.bind(this);
+        fromLogin = getIntent().getIntExtra("fromLogin", Constants.LoginType.loginNormal);
+        isGestureShipLogin = getIntent().getBooleanExtra(Constants.IS_GESTURE_SHIP_LOGIN, false);
+        AppManager.getAppManager().addActivity(this);
+        //initData();
+        intView();
+        initListener();
+    }
+
+    private void intView() {
+        if (fromLogin == Constants.LoginType.loginPwdGesture) {
+            setTitle("验证手势密码");
+        } else {
+            setTitle(getString(R.string.gesture_unlock));
+
+        }
+    }
+
+
+    private void initData() {
+//        LoginResponse.UserInfo userInfo = LoginUtils.getUserInfo();
+//        if (userInfo != null) {
+//            gesturePassword = userInfo.getGesturePwd();  //获取保存的手势密码
+//        }
+    }
+
+    private void initListener() {
+        lockPatternView.setOnPatternListener(patternListener);
+        //settingGestureTitleBar.hiddenLeftTextView();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+
+    private LockPatternView.OnPatternListener patternListener = new LockPatternView.OnPatternListener() {
+
+        @Override
+        public void onPatternStart() {
+            lockPatternView.removePostClearPatternRunnable();
+        }
+
+        @Override
+        public void onPatternComplete(List<LockPatternView.Cell> pattern) {
+            if (pattern != null) {
+//                lockPatternIndicator.setIndicator(pattern);
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < pattern.size(); i++) {
+                    builder.append(pattern.get(i).getIndex());
+                }
+                String inputPassword = builder.toString();
+                String pwd = MD5Util.byteMD5(inputPassword.getBytes());
+                if (fromLogin == Constants.LoginType.loginPwdGesture) {
+                    String account = LoginManager.getInstance().getLoginAccount();
+                    handleLogin(account, pwd, "1");
+                } else {
+                    if (LoginManager.getInstance().getGesturePwd().equals(pwd)) {
+                        updateStatus(Status.CORRECT);
+                    } else {
+                        updateStatus(Status.ERROR);
+                    }
+                }
+
+            }
+        }
+    };
+
+    //验证手势密码
+    private boolean checkPattern(List<LockPatternView.Cell> pattern, String gesturePassword) {
+        StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < pattern.size(); i++) {
+            builder.append(pattern.get(i).getIndex());
+        }
+        String inputPassword = builder.toString();
+        String s = MD5Util.byteMD5(inputPassword.getBytes());
+        return s.equals(gesturePassword);
+    }
+
+    /**
+     * 更新状态
+     *
+     * @param status
+     */
+    private void updateStatus(Status status) {
+        messageTv.setText(status.strId);
+        messageTv.setTextColor(getResources().getColor(status.colorId));
+        switch (status) {
+            case DEFAULT:
+                lockPatternView.setPattern(LockPatternView.DisplayMode.DEFAULT);
+                break;
+            case ERROR:
+                // 左右移动动画
+                Animation shakeAnimation = AnimationUtils.loadAnimation(this, R.anim.shake);
+                messageTv.startAnimation(shakeAnimation);
+                lockPatternView.setPattern(LockPatternView.DisplayMode.ERROR);
+                lockPatternView.postClearPatternRunnable(DELAYTIME);
+//                lockPatternIndicator.setDefaultIndicator();
+                break;
+            case CORRECT:
+                lockPatternView.setPattern(LockPatternView.DisplayMode.DEFAULT);
+                loginGestureSuccess();
+                break;
+        }
+    }
+
+
+    /**
+     * 手势登录成功（去首页）
+     */
+    private void loginGestureSuccess() {
+        if (fromLogin == Constants.LoginType.loginPwdGesture) {
+            MainActivity.goToMainActivity(GestureLockLoginActivity.this);
+        } else {
+            ToastUtils.showToast(GestureLockLoginActivity.this, "手势验证成功");
+        }
+        finish();
+    }
+
+    private enum Status {
+        //默认的状态
+        DEFAULT(R.string.gesture_default, R.color.a5a5a5),
+        //密码输入错误
+        ERROR(R.string.gesture_error, R.color.f4333c),
+        //密码输入正确
+        CORRECT(R.string.gesture_correct, R.color.a5a5a5);
+
+        private Status(int strId, int colorId) {
+            this.strId = strId;
+            this.colorId = colorId;
+        }
+
+        private int strId;
+        private int colorId;
+    }
+
+    @Override
+    public void onBackPressed() {  //禁用返回键
+        return;
+    }
+
+    //使用账号去登陆
+    @OnClick(R.id.gesture_lock_login_user)
+    public void forgetGesturePwd(View view) {
+        Intent intent = new Intent(this, LoginAc.class);
+        //是否是手势登录页跳转至登录页面
+        if (isGestureShipLogin) {
+            intent.putExtra(Constants.IS_GESTURE_SHIP_LOGIN, true);
+        }
+        startActivity(intent);
+    }
+
+
+    //处理登录逻辑
+    private void handleLogin(String account, String pwd, String terminalType) {
+        HttpParams httpParams = new HttpParams();
+        httpParams.put("loginType", Constants.LoginType.loginPwdGesture);
+        httpParams.put("account", account);
+        httpParams.put("pwd", pwd);
+        httpParams.put("terminalType", terminalType);
+        OkGo.post(HttpApi.LOGIN_URL)
+                .params(httpParams)
+                .execute(new ResCallBack<BaseEntity<UserInfo, DataMapLoginBean>>(GestureLockLoginActivity.this, false) {
+                    @Override
+                    public void onCall(BaseEntity<UserInfo, DataMapLoginBean> user, Call call, Response response) {
+                        if (user.getStateCode().equals(App.stateCode)) {
+                            updateStatus(Status.CORRECT);//更新手势密码状态
+                        } else {
+                            updateStatus(Status.ERROR);
+                        }
+                    }
+
+                    @Override
+                    public void onError(Call call, Response response, Exception e) {
+                        super.onError(call, response, e);
+                        updateStatus(Status.ERROR);//更新手势密码状态
+                        ToastUtils.showToast(GestureLockLoginActivity.this, "手势密码错误,请重试");
+                    }
+                });
+
+        /*Type type = new TypeToken<LoginResponse>() {
+        }.getType();
+        HashMap<String, String> params = new HashMap<>();
+        params.put("loginType", Constants.LOGIN_GESTURE + "");
+        params.put("account", account);
+        params.put("pwd", pwd);
+        OkHttpUtils.post(Api.LOGIN_URL)//
+                .tag(this)//
+                .params(params)
+                .execute(new DialogCallback<LoginResponse>(this, type) {
+                    @Override
+                    public void onResponse(boolean isFromCache, LoginResponse loginResponse, Request request, @Nullable Response response) {
+                        LogUtils.d(TAG, loginResponse.toString());
+                        saveUserInfo(loginResponse);
+                        if (loginResponse.getStateCode().equals("1000")) {
+                            updateStatus(Status.CORRECT);  //更新手势密码状态
+                        }
+                    }
+
+                    @Override
+                    public void onError(boolean isFromCache, Call call, @Nullable Response response, @Nullable Exception e) {
+                        super.onError(isFromCache, call, response, e);
+                        LogUtils.d(TAG, "登录连接失败");
+
+                    }
+                });*/
+    }
+
+    //登录成功后用户信息本地存储
+    /*private void saveUserInfo(LoginResponse loginResponse) {
+        LoginResponse.UserInfo userInfo = loginResponse.getData();
+        userInfo.setToken(loginResponse.getDataMap().getToken());
+        if (loginResponse.getDataMap().getHomeLink() != null) {
+            userInfo.setHomeId(loginResponse.getDataMap().getHomeLink().getHomeId());
+            userInfo.setHomeName(loginResponse.getDataMap().getHomeLink().getHomeName());
+        }
+        LoginUtils.saveUserInfo(userInfo);
+        SPUtils.put(MyApplication.mContext, Constants.TOKEN, loginResponse.getDataMap().getToken());  //保存apptoken
+    }*/
+}

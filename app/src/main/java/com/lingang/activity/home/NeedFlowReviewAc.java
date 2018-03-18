@@ -1,0 +1,182 @@
+package com.lingang.activity.home;
+
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.google.gson.Gson;
+import com.lcodecore.tkrefreshlayout.RefreshListenerAdapter;
+import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
+import com.lingang.App;
+import com.lingang.R;
+import com.lingang.adapter.NeedFlowAdapter;
+import com.lingang.base.BaseAc;
+import com.lingang.bean.BaseEntity;
+import com.lingang.bean.MastFlowTracingBean;
+import com.lingang.common.Constants;
+import com.lingang.common.LoginManager;
+import com.lingang.common.PagerHelper;
+import com.lingang.http.HttpApi;
+import com.lingang.http.ResCallBack;
+import com.lingang.utils.HttpLoading;
+import com.lingang.utils.ToastUtils;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.model.HttpParams;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import butterknife.BindView;
+import okhttp3.Call;
+import okhttp3.Response;
+
+/**
+ * 流程跟踪-》详细页面
+ */
+public class NeedFlowReviewAc extends BaseAc {
+
+    @BindView(R.id.flow_details_rv)
+    RecyclerView flowDetailsRv;
+    @BindView(R.id.flow_details_refresh)
+    TwinklingRefreshLayout flowDetailsRefresh;
+    @BindView(R.id.flow_review_title)
+    TextView flowReviewTitle;
+    @BindView(R.id.flow_tracing_ll)
+    LinearLayout flowTracingLl;
+    //参数
+    private String taskID = App.Empty;
+    private String taskName = App.Empty;
+
+    NeedFlowAdapter adapter;
+    //分页
+    private PagerHelper pagerHelper;
+    private List<MastFlowTracingBean.MastFlowTracing> dataList;
+
+    private ProgressDialog progressDialog=null;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        contentView(R.layout.activity_need_flow_review);
+        initView();
+    }
+
+    /**
+     * 初始化
+     */
+    private void initView() {
+        setTitle(getString(R.string.need_flow_title));
+        flowDetailsRefresh.setEnableRefresh(false);
+        flowDetailsRefresh.setEnableLoadmore(false);
+        taskID = getIntent().getStringExtra(Constants.paramTaskId);
+        taskName = getIntent().getStringExtra(Constants.paramTaskName);
+        flowReviewTitle.setText(taskName);
+        dataList = new ArrayList<>();
+        pagerHelper = new PagerHelper(this, 0, 50);
+        adapter = new NeedFlowAdapter(NeedFlowReviewAc.this, dataList);
+        flowDetailsRv.setAdapter(adapter);
+
+        //ScrollView嵌套RecyclerView 滑动问题和显示不全
+        flowDetailsRv.setNestedScrollingEnabled(false);
+        flowDetailsRv.setHasFixedSize(true);
+
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
+        flowDetailsRv.setLayoutManager(layoutManager);
+
+        if (!TextUtils.isEmpty(taskID)) {
+            getMastFlowTracing();
+        } else {
+            ToastUtils.showToast(NeedFlowReviewAc.this, getString(R.string.need_flow_param_error));
+        }
+    }
+
+    /**
+     * 获取流程流转状态详细内容
+     */
+    public void getMastFlowTracing() {
+        progressDialog=HttpLoading.getInstance().initLoading(this);
+        progressDialog.show();
+        HttpParams httpParams = new HttpParams();
+        httpParams.put("Taskid", taskID);
+        httpParams.put("token", LoginManager.getInstance().getToken());
+        OkGo.post(HttpApi.GetMastFlowTracing)
+                .params(httpParams)
+                .execute(new ResCallBack<BaseEntity<String, Object>>(this,false) {
+                    @Override
+                    public void onCall(BaseEntity<String, Object> dataBean, Call call, Response response) {
+                        flowTracingLl.setVisibility(View.VISIBLE);
+                        String result = dataBean.getData();
+                        List<MastFlowTracingBean.MastFlowTracing> mList = new Gson().fromJson(result.replaceAll("\\\\", ""), MastFlowTracingBean.class).getData();
+                        loadIndex=App.IntNormal;
+
+                        dataList.addAll(mList);
+                        loadSubList();
+                        //adapter.notifyDataSetChanged();
+                    }
+                });
+    }
+    private int loadIndex=App.IntNormal;
+
+    private void loadSubList()
+    {
+        if(dataList.size() >loadIndex)
+        {
+            if(!TextUtils.isEmpty(dataList.get(loadIndex).getIsSubflow())
+                    && dataList.get(loadIndex).getIsSubflow().equals(Constants.FlowIsSubState.yes))
+            {
+                String ProcID = dataList.get(loadIndex).getPROCID();
+                HttpParams httpParams = new HttpParams();
+                httpParams.put("ProcID", ProcID);
+                httpParams.put("token",LoginManager.getInstance().getToken());
+                OkGo.post(HttpApi.GetSubFlowTracing)
+                        .params(httpParams)
+                        .execute(new ResCallBack<BaseEntity<String, Object>>(this,false) {
+                            @Override
+                            public void onCall(BaseEntity<String, Object> dataBean, Call call, Response response) {
+                                flowTracingLl.setVisibility(View.VISIBLE);
+                                String result = dataBean.getData();
+                                //获取子流程
+                                List<MastFlowTracingBean.MastFlowTracing> subList = new Gson().fromJson(result.replaceAll("\\\\", ""), MastFlowTracingBean.class).getData();
+                                dataList.get(loadIndex).setSubFlowList(subList);
+                                //获取下一个子流程
+                                loadIndex++;
+                                loadSubList();
+                            }
+                        });
+            }else
+            {
+                //获取下一个子流程
+                loadIndex++;
+                loadSubList();
+            }
+        }else
+        {
+            if(progressDialog!=null)
+            {
+                progressDialog.dismiss();
+                progressDialog=null;
+            }
+            adapter.notifyDataSetChanged();
+        }
+    }
+
+    /**
+     * 跳转页面
+     *
+     * @param context
+     */
+    public static void goToNeedFlowReviewAc(Context context, String taskID, String taskName) {
+        Intent intent = new Intent(context, NeedFlowReviewAc.class);
+        intent.putExtra(Constants.paramTaskId, taskID);
+        intent.putExtra(Constants.paramTaskName, taskName);
+        context.startActivity(intent);
+    }
+}

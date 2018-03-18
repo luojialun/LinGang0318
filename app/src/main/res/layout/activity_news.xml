@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/tabLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:tabMode="scrollable"-->
+        <!--app:tabIndicatorHeight="0dp"-->
+        <!--app:tabSelectedTextColor="@color/btn_bg"-->
+        <!--app:tabTextColor="@color/black" />-->
+
+
+    <!--<include layout="@layout/recycleview"/>-->
+    <!--<com.lingang.view.TitleBar-->
+        <!--android:id="@+id/new_titlebar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="46dp"-->
+        <!--android:background="@color/title_bg"-->
+        <!--app:titlebar_leftDrawable="@mipmap/backwhite"-->
+        <!--app:titlebar_rightDrawable="@mipmap/search"-->
+        <!--app:titlebar_titleText="@string/new_title"-->
+        <!--app:titlebar_titleTextColor="#ffffff"-->
+        <!--app:titlebar_titleTextSize="18sp"></com.lingang.view.TitleBar>-->
+    <!--<TextView-->
+        <!--android:id="@+id/search_level2_toolbar_title"-->
+        <!--style="@style/search_edit_title"-->
+        <!--android:text="@string/new_title"/>-->
+    <com.flyco.tablayout.SlidingTabLayout
+        android:id="@+id/news_category_stl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        app:tl_textSelectColor="@color/word_orange_color_F57725"
+        app:tl_textUnselectColor="@color/black_80"
+        app:tl_textsize="16sp"
+        app:tl_tab_padding="16dp"
+        app:tl_indicator_style="NORMAL" />
+
+    <!--center-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/news_category_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

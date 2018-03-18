@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/xml/file_paths.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/xml/new_app_file_paths.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/LinGang/update-app/unspecified/res/xml/new_app_file_paths.xml"
+    }
+]

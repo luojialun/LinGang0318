@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+    <ExpandableListView
+        android:id="@+id/lv_week"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:dividerHeight="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        android:scrollbars="none"
+        android:groupIndicator="@null"
+        android:cacheColorHint="#00000000"
+        android:childDivider="@color/transparent"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginRight="@dimen/margin_10"
+        android:divider="@color/transparent"
+        android:listSelector="@color/transparent"/>
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>

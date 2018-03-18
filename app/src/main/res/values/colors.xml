@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--主页下方四个栏目未选中的颜色-->
+    <color name="white">#FFF</color>
+    <color name="black_10">#19000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_30">#4C000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_50">#7F000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_70">#B2000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_90">#E5000000</color>
+    <color name="black">#000000</color>
+
+    <color name="white_10">#19FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_30">#4CFFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_50">#7FFFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_70">#B2FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_90">#E5FFFFFF</color>
+    <color name="transparent_color">#00000000</color>
+
+
+
+    <color name="green">#67CABF</color>
+    <color name="title_bg">#1E2B58</color>
+    <color name="ac_bg">#F3F4F9</color>
+    <color name="seach_bg">#182246</color>
+    <color name="seach_tv_bg">#747A90</color>
+    <color name="groom_line">#DCDCDC</color>
+    <color name="edi_bg">#878787</color>
+    <color name="code_bg">#171E46</color>
+    <color name="btn_bg">#F0611D</color>
+    <color name="line_sj">#FF6400</color>
+    <color name="line_sj1">#FDE4B9</color>
+    <color name="gray">#8c8c8c</color>
+    <color name="tv_yellow">#FFFF3401</color>
+    <color name="red">#F57725</color>
+    <color name="grenn">#767676</color>
+    <color name="grenn1">#ADADAD</color>
+    <color name="grenn2">#828282</color>
+    <color name="grenn3">#B7B7B7</color>
+    <color name="grenn_line">#979797</color>
+    <color name="grenn_home">#767676</color>
+    <color name="groom_dialog">#696969</color>
+    <color name="line">#F2F2F2</color>
+    <color name="layout_backgroud_gray">#F3F4F9</color>
+    <color name="tv_flow_bg">#FFF0E6</color>
+    <color name="tv_flow_color">#F57725</color>
+    <color name="rect_grenn">#D7D7D7</color>
+    <color name="tv_class_bg">#D8D8D8</color>
+    <color name="broad">#1E2B58</color>
+    <color name="grenn_btn">#D0D0D0</color>
+    <color name="bice">#007AFF</color>
+    <color name="dialog_bg">#EEEEEE</color>
+    <color name="dialog_line">#D8D8D8</color>
+    <color name="white_light">#dddddd</color>
+    <!--底部导航栏文本-->
+    <color name="bottom_navigation_bg">#FFFFFF</color>
+
+    <!--描述问题  50%黑-->
+    <color name="word_black_color_50">#88000000</color>
+
+    <!--分割线    20%黑-->
+    <color name="word_black_color_10">#22000000</color>
+
+    <color name="progress_horizontal_current">#5570CE</color>
+    <color name="progress_horizontal_bg">#D8D8D8</color>
+
+    <!--手势密码-->
+    <color name="b2b2b2">#B2B2B2</color>
+    <color name="c_78d2f6">#78D2F6</color>
+    <color name="c_01aaee">#01AAEE</color>
+    <color name="c_00aaee">#00AAEE</color>
+    <color name="f3323b">#F3323B</color>
+    <color name="a6a6a6">#A6A6A6</color>
+
+    <color name="f6f6f6">#f6f6f6</color>
+    <color name="a5a5a5">#A5A5A5</color>
+    <color name="dde1e7">#DDE1E7</color>
+    <color name="f4333c">#F4333C</color>
+    <color name="FFC2B3">#FFC2B3</color>
+
+
+    <!--字体颜色-->
+    <color name="word_orange_color_F57725">#F57725</color>
+    <color name="word_gray_color_F57725">#881E2B58</color>
+
+    <color name="eaa230">#EAA230</color>
+    <color name="ef8a38">#EF8A38</color>
+    <color name="e87123">#E87123</color>
+    <color name="c_333333">#333333</color>
+    <color name="f18348">#F18348</color>
+    <color name="f7770a">#F7770A</color>
+    <color name="c6c7c8">#C6C7C8</color>
+    <color name="c_2a2d2e">#2a2d2e</color>
+    <color name="f57725">#F57725</color>
+    <color name="f45751">#F45751</color>
+    <color name="EDEDED">#EDEDED</color>
+    <color name="dcdcdc">#dcdcdc</color>
+    <color name="d8d8d8">#d8d8d8</color>
+    <color name="black_details">#4E4E4E</color>
+    <color name="search_bg">#88000000</color>
+    <color name="search_bg_stroke">#FF000000</color>
+    <color name="c_0076ff">#0076FF</color>
+    <color name="f78236">#f78236</color>
+    <color name="c_3cd17f">#3CD17F</color>
+
+    <color name="c_7eb2ec">#7eb2ec</color>
+    <color name="f8943e">#f8943e</color>
+    <color name="c_52d68e">#52d68e</color>
+    <color name="c5c5c5">#c5c5c5</color>
+
+    <color name="bobed9">#B0BED9</color>
+</resources>

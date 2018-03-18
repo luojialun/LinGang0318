@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_35"
+        android:layout_marginRight="@dimen/margin_35"
+        android:layout_marginTop="@dimen/margin_20">
+
+        <ImageView
+            android:id="@+id/img_kh_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/ic_kehuxinxi1" />
+
+        <ImageView
+            android:id="@+id/img_xq_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_xuqiuxinxi2" />
+
+        <ImageView
+            android:id="@+id/img_yq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_xuanzeyuanqu2" />
+
+        <View
+            android:id="@+id/vv_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_toLeftOf="@id/img_xq_info"
+            android:layout_toRightOf="@id/img_kh_info"
+            android:background="@color/line_sj" />
+
+        <View
+            android:id="@+id/vv_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:layout_marginRight="@dimen/margin_5"
+            android:layout_toLeftOf="@id/img_yq"
+            android:layout_toRightOf="@id/img_xq_info"
+            android:background="@color/line_sj1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_35"
+        android:layout_marginRight="@dimen/margin_35"
+        android:layout_marginTop="@dimen/margin_15"
+        android:layout_marginBottom="@dimen/margin_20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="客户信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="需求信息"
+            android:textColor="@color/grenn"
+            android:id="@+id/tv_xuq"
+            android:textSize="@dimen/text_12" />
+
+        <TextView
+            android:id="@+id/tv_yuanq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="选择园区"
+            android:textColor="@color/grenn"
+            android:textSize="@dimen/text_12" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:text="招商员"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_14" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_13"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/grenn2"
+            android:textSize="@dimen/text_14"
+            android:text="李达"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:text="企业名称"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_14" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_13"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/grenn2"
+            android:textSize="@dimen/text_14"
+            android:text="上海国盛(集团)有限公司"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_16"
+            android:text="提交时间"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_14" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_13"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/grenn2"
+            android:textSize="@dimen/text_14"
+            android:text="2017-05-06 12:33"/>
+    </RelativeLayout>
+</LinearLayout>

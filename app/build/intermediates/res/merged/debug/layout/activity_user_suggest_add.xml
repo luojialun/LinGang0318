@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_fank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        android:autoLink="phone"
+        android:textColorLink="@color/c_01aaee"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_12" />
+
+    <EditText
+        android:id="@+id/suggest_feed_content_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_15"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/grenn_rect2"
+        android:gravity="top|left"
+        android:padding="@dimen/margin_5"
+        android:lineSpacingExtra="3dp"
+        android:textColor="@color/grenn"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ac_bg" />
+
+    <ezy.ui.view.RoundButton
+        android:id="@+id/suggest_submit"
+        style="@style/RoundButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mine_user_name_tv"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:btnCornerRadius="4dp"
+        app:btnPressedRatio="0.8"
+        app:btnSolidColor="@color/e87123" />
+</LinearLayout>

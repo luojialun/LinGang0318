@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundButton"><attr format="color" name="btnSolidColor"/><attr format="color" name="btnStrokeColor"/><attr format="dimension" name="btnStrokeWidth"/><attr format="dimension" name="btnStrokeDashWidth"/><attr format="dimension" name="btnStrokeDashGap"/><attr format="dimension" name="btnCornerRadius">
+            <enum name="stadium" value="-1"/>
+        </attr><attr format="float" name="btnPressedRatio"/></declare-styleable>
+</resources>

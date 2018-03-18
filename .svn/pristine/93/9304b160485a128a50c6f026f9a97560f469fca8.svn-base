@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:background="@drawable/rv_touch_selector"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/examine_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:text="XX的审核推荐"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/black_10" />
+
+    <com.lingang.view.SettingItem
+        android:id="@+id/name_si"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        app:itemText="企业名称"
+        app:itemTextColor="@color/black_40"
+        app:itemTextSize="14dp"
+        app:leftdrawablevisivle="false"
+        app:rightText="上海临港奉贤有限公司"
+        app:rightTextColor="@color/black"
+        app:rightTextSize="14dp"
+        app:showArrow="gone"
+        app:showdivider="false" />
+
+    <com.lingang.view.SettingItem
+        android:id="@+id/need_si"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        app:itemText="需求类型"
+        app:itemTextColor="@color/black_40"
+        app:itemTextSize="14dp"
+        app:leftdrawablevisivle="false"
+        app:rightText="厂房/注册型企业/研发办公/土地"
+        app:rightTextColor="@color/black"
+        app:rightTextSize="14dp"
+        app:showArrow="gone"
+        app:showdivider="false" />
+
+    <com.lingang.view.SettingItem
+        android:id="@+id/examine_si"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        app:itemText="审核类型"
+        app:itemTextColor="@color/black_40"
+        app:itemTextSize="14dp"
+        app:leftdrawablevisivle="false"
+        app:rightText="推荐审核"
+        app:rightTextColor="@color/black"
+        app:rightTextSize="14dp"
+        app:showArrow="gone"
+        app:showdivider="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:text="审核状态"
+            android:textColor="@color/black_40"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/state_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="2dp"
+            android:text="待审核"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/correct_date_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    app:itemText="信息纠错"
+                    app:itemTextColor="@color/black"
+                    app:itemTextSize="16sp"
+                    app:leftdrawable="@mipmap/ic_jiucuo"
+                    app:showArrow="gone" />
+                <!--    <com.lingang.view.SettingItem
+                        android:id="@+id/relative_page_si"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:paddingLeft="-10dp"
+                        android:background="@color/white"
+                        app:itemText="关联页面"
+                        app:itemTextColor="@color/black_40"
+                        app:rightText="临港装备产业详情页"
+                        app:showdivider="false" />-->
+                <!--  <com.lingang.view.SettingItem
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingLeft="-10dp"
+                      android:background="@color/white"
+                      app:itemText="纠错内容"
+                      app:itemTextColor="@color/black_40"
+                      app:itemTextSize="14sp"
+                      app:showdivider="false"
+                      app:showArrow="gone"/>-->
+                <TextView
+                    android:id="@+id/correct_content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:textColor="@color/black_80"
+                    android:textSize="14sp" />
+                <!-- <TextView
+                     android:id="@+id/correct_date_tv"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:paddingLeft="15dp"
+                     android:paddingBottom="20dp"
+                     android:paddingTop="2dp"
+                     android:background="@color/white"
+                     android:textSize="14sp"
+                     android:textColor="@color/black_40"
+                     android:text="1990-01-01  00：00"/>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/correct_plane_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/reply_date_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    app:itemText="管理员回复"
+                    app:itemTextColor="@color/black"
+                    app:itemTextSize="16sp"
+                    app:leftdrawable="@mipmap/ic_glyhf"
+                    app:showArrow="gone" />
+                <!-- <com.lingang.view.SettingItem
+                     android:id="@+id/relative_people_si"
+                     android:layout_width="match_parent"
+                     android:layout_height="40dp"
+                     android:paddingLeft="-10dp"
+                     android:background="@color/white"
+                     app:itemText="联络人"
+                     app:itemTextColor="@color/black_40"
+                     app:rightText="联络人"
+                     app:showdivider="false" />-->
+                <!--   <com.lingang.view.SettingItem
+                       android:id="@+id/reply_date_si"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:paddingLeft="-10dp"
+                       android:background="@color/white"
+                       app:itemText="管理员回复"
+                       app:itemTextColor="@color/black_40"
+                       app:itemTextSize="14sp"
+                       app:showdivider="false"
+                       app:showArrow="gone"/>-->
+                <TextView
+                    android:id="@+id/correct_reply_content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:textColor="@color/black_80"
+                    android:textSize="14sp" />
+                <!--  <TextView
+                      android:id="@+id/correct_reply_date_tv"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingLeft="15dp"
+                      android:paddingBottom="20dp"
+                      android:paddingTop="2dp"
+                      android:background="@color/white"
+                      android:textSize="14sp"
+                      android:textColor="@color/black_40"
+                      android:text="1990-01-01  00：00"/>-->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>

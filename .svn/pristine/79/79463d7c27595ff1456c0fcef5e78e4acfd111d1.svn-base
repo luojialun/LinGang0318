@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="37dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/group_11" />
+
+
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_download_status"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_width="30dp"-->
+        <!--android:src="@mipmap/download_select"-->
+        <!--android:layout_marginRight="15dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_marginBottom="6dp"-->
+        <!--/>-->
+
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/imageView"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:minLines="1"
+                android:text="临港装备产业宣传册"
+                android:textColor="@color/black_80"
+                android:textSize="16sp" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2016-11-14 20:30:00"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_toRightOf="@+id/tv_date"
+                    android:id="@+id/file_state_tv"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="已更新"
+                    android:textColor="@color/f4333c"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="20M"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:maxWidth="100dp"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/download_circle_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:id="@+id/download_circle_img"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/xiazai"
+                android:visibility="gone"/>
+
+            <com.lingang.view.CustomCircleProgress
+                android:id="@+id/download_circle_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:focusable="false"
+                app:circle_radius="14dp"
+                android:padding="1dp"/>
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

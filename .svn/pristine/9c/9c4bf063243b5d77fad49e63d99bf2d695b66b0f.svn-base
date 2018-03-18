@@ -1,0 +1,144 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+//        applicationId "com.lingang"
+        if (PACKAGE == "one") {
+            applicationId "com.lingang"
+            resValue "string","app_name","i-Lingang"
+        } else {
+            applicationId "com.lingangtest"
+            resValue "string","app_name","i-Lingang测试"
+        }
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 30    //发布版本需要修改
+        versionName "1.1.37" //☆☆App更新对应后台版本号-发布版本需要修改
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true //处理异常:method ID not in [0, 0xffff]: 65536
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    greendao {
+        //☆☆数据库的schema版本，也可以理解为数据库版本号
+        schemaVersion 2
+        //设置DaoMaster、DaoSession、Dao包名，也就是要放置这些类的包的全路径。
+        daoPackage 'com.lingang.greendao'
+        //设置DaoMaster、DaoSession、Dao目录
+        targetGenDir 'src/main/java'
+    }
+    //debug sign ->use share
+    signingConfigs {
+        debug {
+            storeFile file('lingang.jks')
+            storePassword "lingang123"
+            keyAlias "lingang"
+            keyPassword "lingang123"
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/rxjava.properties'
+        exclude 'META-INF/rxjava.PROPERTIES'
+        exclude 'META-INF/RXJAVA.properties'
+        exclude 'META-INF/RXJAVA.PROPERTIES'
+        exclude 'META-INF/rxjava'
+        exclude 'META-INF/RXJAVA'
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    //处理异常:method ID not in [0, 0xffff]: 65536
+    compile 'com.android.support:multidex:'
+    //compile 'com.android.support:appcompat-v7:25.3.1'
+    //glide
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    /*glide https helper*/
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    //沉浸式
+    compile 'com.flyco.systembar:FlycoSystemBar_Lib:1.0.0@aar'
+    //net
+    compile 'com.lzy.net:okgo:2.1.4'
+    compile 'com.lzy.net:okserver:1.1.3'
+    compile 'com.google.code.gson:gson:2.6.2'
+    //控件
+    compile 'com.jakewharton:butterknife:8.5.1'
+    //图表
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    //刷新控件
+    compile 'com.lcodecorex:tkrefreshlayout:1.0.7'
+    //轮播图
+    compile 'com.youth.banner:banner:1.4.9'
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile 'com.android.support:multidex:1.0.0'
+    //富文本控制器
+    compile 'com.zzhoujay.richtext:richtext:2.5.1'
+    //视频播放
+    compile 'fm.jiecao:jiecaovideoplayer:5.5.4'
+    //图片选择器
+    compile 'com.github.LuckSiege.PictureSelector:picture_library:v1.2.5'
+    //字体排版
+    compile 'me.codeboy.android:align-text-view:2.3.0'
+    //compile 'com.supercwn.superrecycleview:superlibrary:1.2.0'
+    //tag 标签列表
+    //compile project(':tagcloudview')
+    compile 'com.github.kingideayou:tagcloudview:1.0.2'
+    //单个标签
+    compile 'com.github.czy1121:roundbutton:1.1.0'
+    //butterknife
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    //eventbus
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //FlycoTabLayout
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    //底部滚动选择器
+    compile 'com.contrarywind:Android-PickerView:3.2.5'
+    //pdf read
+    compile 'com.github.barteksc:android-pdf-viewer:2.3.0'
+    //SwipeMenuRecyclerView 侧滑删除+recyclerview
+    compile 'com.yanzhenjie:recyclerview-swipe:1.0.2'
+    //httpserver
+    compile project(':okhttpserver')
+    //video 跳过https自带数字证书，辅助库
+    compile 'com.loopj.android:android-async-http:1.4.7'
+    //两端对齐
+    //二维码生成
+    compile 'com.google.zxing:core:3.3.0'
+    //rxjava 1
+    compile 'io.reactivex:rxjava:1.2.9'
+    compile 'io.reactivex:rxandroid:1.2.0'
+    //权限引导
+    compile 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+    //APP升级库
+    compile project(':update-app')
+    //角标
+    compile "me.leolin:ShortcutBadger:1.1.18@aar"
+    //Android N相机图库权限问题解决方案
+    compile 'com.jph.takephoto:takephoto_library:4.0.3'
+
+}

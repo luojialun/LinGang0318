@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ac_title"
+    android:background="@color/title_bg"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_15"
+        android:orientation="horizontal">
+
+
+        <com.lingang.view.ClearEditText
+            android:id="@+id/et_seach"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginRight="@dimen/margin_15"
+            android:layout_weight="1"
+            android:background="@color/seach_bg"
+            android:drawableLeft="@mipmap/search"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="请输入关键字"
+            android:imeOptions="actionSearch"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_5"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/seach_tv_bg"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:id="@+id/seach_canle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingRight="@dimen/margin_15"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16" />
+
+    </LinearLayout>
+</LinearLayout>

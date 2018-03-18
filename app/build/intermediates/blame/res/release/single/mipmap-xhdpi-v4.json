@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/mipmap-xhdpi-v4/lib_update_app_close.png",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/LinGang/update-app/unspecified/res/mipmap-xhdpi-v4/lib_update_app_close.png"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/mipmap-xhdpi-v4/lib_update_app_update_icon.png",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/LinGang/update-app/unspecified/res/mipmap-xhdpi-v4/lib_update_app_update_icon.png"
+    }
+]

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lingang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+
+    <!--=============================测试服务器Manifest===================================-->
+
+
+    <permission
+        android:name="com.lingangtest.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="com.lingangtest.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+
+    <!--android:label="@string/app_name2"-->
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_new"
+        android:supportsRtl="true"
+        android:theme="@style/NoTitleTranslucentTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.lingangtest.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- 自定义glide磁盘缓存 -->
+        <meta-data
+            android:name="com.lingang.glide.httpsHelper.GlideConfiguration"
+            android:value="GlideModule" />
+        <!-- ActivitySlideTheme -->
+        <!-- umengAppKey，replace to yours -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="58511fb4aed1791dcf000946" />
+        <!-- ****************************友盟分享所要求的************************ -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.umeng.socialize.media.WBShareCallBackActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.sina.weibo.sdk.share.WbShareTransActivity"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- <activity -->
+        <!-- android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" -->
+        <!-- android:configChanges="keyboardHidden|orientation" -->
+        <!-- android:windowSoftInputMode="adjustResize" -->
+        <!-- android:exported="false" > -->
+        <!-- </activity> -->
+
+
+        <!-- *****************************************激光推送************************************* -->
+        <!-- Required  . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="a71733abca13bd4d7670007a" /> <!-- 值来自开发者平台取得的AppKey -->
+
+
+        <!--a71733abca13bd4d7670007a测试-->
+        <!--ddef2771857de4cf407e0af2正式-->
+
+
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" />
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.lingangtest" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:exported="false"
+            android:process=":mult">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.lingang" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.lingang" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name=".common.MyReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.lingangtest" />
+            </intent-filter>
+        </receiver>
+        <!-- User defined.  For test only  用户自定义接收消息器,3.0.7开始支持,目前新tag/alias接口设置结果会在该广播接收器对应的方法中回调 -->
+        <!-- <receiver android:name="com.example.jpushdemo.MyJPushMessageReceiver"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" /> -->
+        <!-- <category android:name="com.lingang"></category> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+
+        <!-- *****************************************激光推送-结束************************************* -->
+
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent101366515" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.home.LeftActivity"
+            android:label="刷新demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.Left2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="主页面"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.login.LoginAc"
+            android:label="登录"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.login.StartAc"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.home.NewsAc"
+            android:label="资讯"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.NewsDetailsAc"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="新闻详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.ClusterAc"
+            android:label="产业集群"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.ListAc"
+            android:label="排行榜"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.GroupAc"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="集团简介"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.GroomAc"
+            android:label="商机推荐"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.business.MyClaimAc"
+            android:label="我的推荐"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.BoardAc"
+            android:label="商机看板"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.ClaimAc"
+            android:label="推荐商机 商机池"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.OpportunityDetailsAc"
+            android:label="我的推荐  商机详情  已认领 已撤回  已落地  已执行"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.GroomDetailsZhiXAc"
+            android:label="我的执行  商机详情  已认领 已撤回  已落地  已执行"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.ClaimDetailesAc"
+            android:label="商机池v 商机详情  未认领 已认领"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.InvestmentTypeAc"
+            android:label="招商类型 选择园区"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.SuccessAc"
+            android:label="推荐成功"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.ParkAc"
+            android:label="所属园区"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.SelectPersonAc"
+            android:label="选择招商人员"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.SuppiyAc"
+            android:label="商机  需求 补充说明"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.PersonInfoActivity"
+            android:label="个人主页"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.ContracAc"
+            android:label="招商合同"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.NewsSearchAc"
+            android:label="新闻搜索页面"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".activity.business.ReasonsAc"
+            android:label="撤回原因"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.NoticeAc"
+            android:label="系统公告"
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
+        <!-- android:name="com.tencent.connect.common.AssistActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" /> -->
+        <activity
+            android:name=".activity.home.NoticeDetailsAc"
+            android:label="公告详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.NeedAc"
+            android:label="待办流程"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.NeedBusinessReviewAc"
+            android:label="@string/need_business_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name=".activity.home.NeedBusinessResultAc"
+            android:label="@string/need_business_result_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name=".activity.home.NeedCorrectionReviewAc"
+            android:label="@string/need_correction_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name=".activity.home.NeedCorrectionResultAc"
+            android:label="@string/need_correction_result_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name=".activity.home.NeedFeedbackReviewAc"
+            android:label="@string/need_feedback_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name=".activity.home.NeedFeedbackResultAc"
+            android:label="@string/need_feedback_result_title"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity
+            android:name=".activity.contacts.ContactsAc"
+            android:label="通讯录"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.contacts.ContactsCompanyAc"
+            android:label="@string/contacts_company"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.contacts.ContactsDepAc"
+            android:label="@string/contacts_dep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.contacts.ContactsSearchAc"
+            android:label="@string/contacts_search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <!-- <activity -->
+        <!-- android:name=".activity.home.WeekAc" -->
+        <!-- android:label="一周安排" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name=".activity.home.MessageAc"
+            android:label="系统消息"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.PropertyDettailsAc"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="租售物业详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.EntryDetailsAc"
+            android:label="存量客户详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.ChanYeDetailsAc"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="产业园区详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.JiQunDetailsAc"
+            android:label="产业集群详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.search.HomeSearchActivity"
+            android:label="@string/global_search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.home.search.HomeSearchResultActivity"
+            android:label="@string/global_search_result"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.YuanQuAc"
+            android:label="产业园区"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.PartnerAc"
+            android:label="合作伙伴"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.MatingAc"
+            android:label="配套服务"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.EntryAc"
+            android:label="存量客户"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.BusinessAc"
+            android:label="租售物业"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.PolicyListAc"
+            android:label="招商政策"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adapter.PartnerDetailsAc"
+            android:label="合作伙伴详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.MatingDetailesAc"
+            android:label="配套服务详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.PolicyDetialesAc"
+            android:label="政策详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserInfoAc"
+            android:label="@string/head"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserSettingAc"
+            android:label="@string/setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserSuggestAc"
+            android:label="@string/suggest_feed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserSuggestDetailsAc"
+            android:label="@string/suggest_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserSuggestAddAc"
+            android:label="@string/suggest_feed"
+            android:windowSoftInputMode="stateVisible|stateAlwaysVisible" />
+        <activity
+            android:name=".activity.user.UserCorrectAc"
+            android:label="@string/correct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserCorrectDetailsAc"
+            android:label="@string/correct_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.WebAc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserFavoritesAc"
+            android:label="@string/favorites"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.PdfViewerActivity"
+            android:label="pdf预览"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.SettingGestureActivity"
+            android:label="@string/setting_gesture"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.GestureLockLoginActivity"
+            android:label="@string/gesture_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.GestureLockEditActivity"
+            android:label="@string/setting_gesture"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.PicListAc"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="图集"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.home.ImgBigAc"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="查看大图" />
+
+        <activity
+            android:name=".activity.home.search.SeachYuanQuAc"
+            android:label="搜索产业"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.search.SeachPartnerAc"
+            android:label="搜索合作伙伴"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.search.SeachClusterAc"
+            android:label="搜索产业集群"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.search.SeachBusinessAc"
+            android:label="搜索租售物业"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.search.SeachMatingAc"
+            android:label="搜索配套服务"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.search.SeachPolicyListAc"
+            android:label="搜索招商政策"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.search.SeachEntryAc"
+            android:label="搜索入驻企业"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.DownloadManageActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/download_manager"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserNickAc"
+            android:label="@string/nick" />
+        <activity
+            android:name=".activity.home.PublicAc"
+            android:label="公共平台"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.PublicDetailsAc"
+            android:label="公共平台详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.SeachPublicAc"
+            android:label="公共平台详情搜索"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.NeedFlowReviewAc"
+            android:label="@string/need_flow_title"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserBigHeadAc"
+            android:label="个人主页大图"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.home.WeekPlanAc"
+            android:label="一周安排"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.UserAppShare"
+            android:label="@string/user_app_share"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.TjTunityOneAc"
+            android:label="推荐商机"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.tunity.RlTunityAc"
+            android:label="认领商机"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.KbTunity"
+            android:label="商机看板"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.MyTunity"
+            android:label="我的商机"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.count.CountAc"
+            android:label="统计"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.count.CompanyAc"
+            android:label="企业动态"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.count.CompanyQueryAc"
+            android:label="企业查询"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.contacts.NewAddAc"
+            android:label="最近新增"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.NexusAc"
+            android:label="客户关系、称呼"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.TjTunityTwoAc"
+            android:label="需求信息"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.tunity.NeedClassAc"
+            android:label="添加需求类型"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.TjTunityThreeAc"
+            android:label="选择园区"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.user.UserRecordAc"
+            android:label="@string/mine_record"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.PreviewAc"
+            android:label="商机预览"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.SendSuccessAc"
+            android:label="发布成功"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.SendSuccessParkAc"
+            android:label="发布成功"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.execute.MyExecute"
+            android:label="@string/my_execute"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.MyExamineAc"
+            android:label="我的审核"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.RlTunityDetailesAc"
+            android:label="招商详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.TunityResultAc"
+            android:label="认领商机结果"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.SupplementAc"
+            android:label="补充需求信息"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.execute.UpdateExecute"
+            android:label="更新执行状态"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.ReturnBusinessAc"
+            android:label="退回商机"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.TransferAc"
+            android:label="转移商机"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.SubmitLandReview"
+            android:label="提交落地审核"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.TransferIllustrationAc"
+            android:label="转移/指派说明"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.UpdateTunityAc"
+            android:label="更新推荐商机（客户信息）"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.tunity.OppExamineDetailsAc"
+            android:label="商机审核详情"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.OppoReturnReasonAc"
+            android:label="商机退回原因"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.tunity.KanBanOppoListAc"
+            android:label="商机看板商机"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.business.ContractSummaryAc"
+            android:label="查看合同摘要"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.VersionListAc"
+            android:label="版本记录"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.user.VersionDetailsAc"
+            android:label="版本记录内容"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

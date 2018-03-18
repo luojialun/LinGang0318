@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_search_dialog_bg">
+    <ListView
+        android:id="@+id/contacts_search_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:dividerHeight="1dp"
+        android:divider="@color/white_10"
+        tools:listitem="@layout/item_contacts_dialog">
+    </ListView>
+</LinearLayout>

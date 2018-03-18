@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/tuijian"
+            android:drawablePadding="@dimen/margin_5"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="推荐信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:background="@color/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginTop="@dimen/margin_15"
+                android:layout_weight="1"
+                android:text="商机推荐人"
+                android:textColor="@color/grenn"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_15"
+                android:drawablePadding="@dimen/margin_5"
+                android:drawableRight="@mipmap/go"
+                android:text="李慕白"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_weight="1"
+                android:text="推荐时间"
+                android:textColor="@color/grenn"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_15"
+                android:text="2017-09-08    19：32"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/gongsi"
+            android:drawablePadding="@dimen/margin_5"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="客户公司信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_weight="1"
+                android:text="公司名称"
+                android:textColor="@color/grenn"
+                android:textSize="@dimen/text_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_15"
+                android:text="上海复兴科技有限公司"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="需求类型"
+            android:textColor="@color/grenn"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="这家公司是一家民营企业，本部在上海浦东，从事软件
+开发服务行业，在业内享有极高声誉，获得过多项专业
+相关领域奖项"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@color/white"
+            android:drawableLeft="@mipmap/xuqiu"
+            android:drawablePadding="@dimen/margin_5"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="客户需求信息"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:background="@color/line" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="需求类型"
+            android:textColor="@color/grenn"
+            android:textSize="@dimen/text_14" />
+
+        <!--<com.lingang.view.flowlayout.TagFlowLayout-->
+        <!--android:id="@+id/tf_detailes"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/white"-->
+        <!--android:paddingBottom="@dimen/margin_10"-->
+        <!--android:paddingLeft="@dimen/margin_15"-->
+        <!--android:paddingRight="@dimen/margin_15"-->
+        <!--android:paddingTop="@dimen/margin_5"-->
+        <!--app:gravity="left"-->
+        <!--app:max_select="0" />-->
+        <me.next.tagview.TagCloudView
+            android:id="@+id/tf_detailes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_5"
+            app:tcvBorder="@dimen/margin_8"
+            app:tcvCanTagClick="false"
+            app:tcvItemBorderVertical="@dimen/margin_8"
+            app:tcvSingleLine="false"
+            app:tcvItemBorderHorizontal="6dp"
+            app:tcvBackground="@drawable/yellow_tab"
+            app:tcvTextColor="@color/tv_flow_color"
+            app:tcvTextSize="4sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="需求描述"
+            android:textColor="@color/grenn"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:text="客户希望在园区注册一个公司，并且需要容纳200人的
+办公场所。公司主营业务为第三方审计，负责年报审核
+、税务咨询等。"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_14" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="@dimen/margin_20"
+
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="0.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/margin_15"
+                android:background="@color/grenn_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="认领之后可以查看商机详细信息"
+                android:textColor="@color/grenn"
+                android:textSize="@dimen/text_14" />
+
+            <View
+                android:layout_width="@dimen/margin_50"
+                android:layout_height="0.5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15"
+                android:background="@color/grenn_line" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_refuse"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginTop="@dimen/margin_30"
+                android:layout_weight="1"
+                android:background="@color/grenn_btn"
+                android:gravity="center"
+                android:text="拒绝"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16" />
+
+            <Button
+                android:id="@+id/btn_claim"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/margin_50"
+                android:layout_marginTop="@dimen/margin_30"
+                android:layout_weight="1"
+                android:background="@color/btn_bg"
+                android:gravity="center"
+                android:text="认领"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

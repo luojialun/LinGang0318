@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_newsnum"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ac_bg"
+    android:paddingBottom="@dimen/margin_8"
+    android:paddingLeft="@dimen/margin_15"
+    android:paddingTop="@dimen/margin_8"
+    android:textColor="@color/grenn2"
+    android:textSize="@dimen/text_12"
+    tools:showIn="@layout/activity_business" />

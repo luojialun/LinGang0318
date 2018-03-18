@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/menu/ucrop_menu_activity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/menu/ucrop_menu_activity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/menu/menu_contextual_action_bar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.darsh.multipleimageselect/multipleimageselect/1.0.4/res/menu/menu_contextual_action_bar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.kingideayou/tagcloudview/1.0.2/res/menu/menu_main.xml"
+    }
+]

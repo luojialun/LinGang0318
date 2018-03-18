@@ -1,0 +1,398 @@
+package com.lingang.utils;
+
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.content.ComponentName;
+import android.content.Context;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.Build;
+import android.telephony.TelephonyManager;
+import android.text.TextUtils;
+import android.util.Log;
+
+import com.google.gson.Gson;
+import com.lingang.App;
+import com.lingang.R;
+import com.lingang.activity.MainActivity;
+import com.lingang.bean.UpdateBean;
+import com.lingang.common.Constants;
+import com.lingang.http.HttpApi;
+import com.lingang.http.manager.UpdateAppHttpUtil;
+import com.vector.update_app.UpdateAppBean;
+import com.vector.update_app.UpdateAppManager;
+import com.vector.update_app.UpdateCallback;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.text.DecimalFormat;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * application工具类
+ */
+
+public class AppUtils {
+    /**
+     * 判断app是否存活
+     *
+     * @param context
+     * @param packageName
+     * @return
+     */
+    public static boolean isAppAlive(Context context, String packageName) {
+        ActivityManager activityManager =
+                (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+        List<ActivityManager.RunningAppProcessInfo> processInfos
+                = activityManager.getRunningAppProcesses();
+        for (int i = 0; i < processInfos.size(); i++) {
+            if (processInfos.get(i).processName.equals(packageName)) {
+                Log.i("NotificationLaunch",
+                        String.format("the %s is running, isAppAlive return true", packageName));
+                return true;
+            }
+        }
+        Log.i("NotificationLaunch",
+                String.format("the %s is not running, isAppAlive return false", packageName));
+        return false;
+    }
+
+    /**
+     * 程序是否在前台运行
+     *
+     * @return
+     */
+    public static boolean isAppOnForeground(Context context) {
+        boolean isForground = false;
+        ActivityManager am = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            List<ActivityManager.RunningAppProcessInfo> runningProcesses = am.getRunningAppProcesses();
+            for (ActivityManager.RunningAppProcessInfo processInfo : runningProcesses) {
+                //前台程序
+                if (processInfo.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND) {
+                    for (String pkgName : processInfo.pkgList) {
+                        if (pkgName.equals(context.getPackageName())) {
+                            isForground = true;
+                        }
+                    }
+                }
+            }
+        } else {
+            //@deprecated As of {@link android.os.Build.VERSION_CODES#LOLLIPOP}, 从Android5.0开始不能使用getRunningTask函数
+            List<ActivityManager.RunningTaskInfo> taskInfo = am.getRunningTasks(1);
+            ComponentName componentInfo = taskInfo.get(0).topActivity;
+            if (componentInfo.getPackageName().equals(context.getPackageName())) {
+                isForground = true;
+            }
+        }
+
+        return isForground;
+    }
+
+    /**
+     * 获取应用程序的包名
+     */
+    private static final DecimalFormat DF = new DecimalFormat("0.00");
+
+    public static String getDownloadPerSize(long finished, long total) {
+        //return DF.format((float) finished / (1024 * 1024)) + "M/" + DF.format((float) total / (1024 * 1024)) + "M";
+        return DF.format((float) finished / (1024 * 1024)) + "M";
+    }
+
+
+    /**
+     * 检查软件是否有更新版本
+     *
+     * @return versionName 最新版本
+     */
+    public static boolean isUpdate(String versionName) {
+        if (!TextUtils.isEmpty(versionName)) {
+            try {
+                //服务器版本
+                String[] serverVersion = versionName.split("\\.");
+                //当前app版本
+                String[] appVersion = getVersionName(App.getInstance().getApplicationContext()).split("\\.");
+                //以服务器版本的长度为准
+                for (int i = 0; i < serverVersion.length; i++) {
+                    if (serverVersion.length > i && appVersion.length > i) {
+                        if (Integer.parseInt(serverVersion[i]) > Integer.parseInt(appVersion[i])) {
+                            return true;
+                        } else if (Integer.parseInt(serverVersion[i]) < Integer.parseInt(appVersion[i])) {
+                            return false;
+                        }
+                    }
+                }
+                return false;
+            } catch (Exception ex) {
+                return false;
+            }
+        }
+        return false;
+    }
+
+    //版本名
+    public static String getVersionName(Context context) {
+        return getPackageInfo(context).versionName;
+    }
+
+    //版本号
+    public static int getVersionCode(Context context) {
+        return getPackageInfo(context).versionCode;
+    }
+
+    private static PackageInfo getPackageInfo(Context context) {
+        PackageInfo pi = null;
+        try {
+            PackageManager pm = context.getPackageManager();
+            pi = pm.getPackageInfo(context.getPackageName(), PackageManager.GET_CONFIGURATIONS);
+
+            return pi;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return pi;
+    }
+
+    /**
+     * 检测当的网络（WLAN、3G/2G）状态
+     *
+     * @param context Context
+     * @return true 表示网络可用
+     */
+    public static boolean isNetworkAvailable(Context context) {
+        ConnectivityManager connectivity = (ConnectivityManager) context
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        if (connectivity != null) {
+            NetworkInfo info = connectivity.getActiveNetworkInfo();
+            if (info != null && info.isConnected()) {
+                // 当前网络是连接的
+                if (info.getState() == NetworkInfo.State.CONNECTED) {
+                    // 当前所连接的网络可用
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    /**
+     * 获取网络状态名称
+     *
+     * @param context
+     * @return
+     */
+    public static String getNetworkName(Context context) {
+        String type = getNetworkTypeName(context);
+        if (type != null) {
+            switch (type) {
+                case "GPRS":
+                case "EGDE":
+                case "EDGE":
+                case "CDMA":
+                case "1xRTT":
+                case "IDEN":
+                    type = "2G";
+                    break;
+                case "HSDPA":
+                case "UMTS":
+                case "EVDO":
+                case "EVDO_0":
+                case "EVDO_A":
+                case "HSUPA":
+                case "HSPA":
+                case "EVDO_B":
+                case "EHRPD":
+                case "HSPAP":
+                    type = "3G";
+                    break;
+                case "LTE":
+                    type = "4G";
+                    break;
+            }
+        } else {
+            type = "3G";
+        }
+        return type;
+    }
+
+    private static String getNetworkTypeName(Context context) {
+        if (context != null) {
+            ConnectivityManager connectMgr = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+            if (connectMgr != null) {
+                NetworkInfo info = connectMgr.getActiveNetworkInfo();
+                if (info != null) {
+                    switch (info.getType()) {
+                        case ConnectivityManager.TYPE_WIFI:
+                            return "WIFI";
+                        case ConnectivityManager.TYPE_MOBILE:
+                            return getNetworkTypeName(info.getSubtype());
+                    }
+                }
+            }
+        }
+        return getNetworkTypeName(TelephonyManager.NETWORK_TYPE_UNKNOWN);
+    }
+
+    public static String getNetworkTypeName(int type) {
+        switch (type) {
+            case TelephonyManager.NETWORK_TYPE_GPRS:
+                return "GPRS";
+            case TelephonyManager.NETWORK_TYPE_EDGE:
+                return "EDGE";
+            case TelephonyManager.NETWORK_TYPE_UMTS:
+                return "UMTS";
+            case TelephonyManager.NETWORK_TYPE_HSDPA:
+                return "HSDPA";
+            case TelephonyManager.NETWORK_TYPE_HSUPA:
+                return "HSUPA";
+            case TelephonyManager.NETWORK_TYPE_HSPA:
+                return "HSPA";
+            case TelephonyManager.NETWORK_TYPE_CDMA:
+                return "CDMA";
+            case TelephonyManager.NETWORK_TYPE_EVDO_0:
+                return "CDMA - EvDo rev. 0";
+            case TelephonyManager.NETWORK_TYPE_EVDO_A:
+                return "CDMA - EvDo rev. A";
+            case TelephonyManager.NETWORK_TYPE_EVDO_B:
+                return "CDMA - EvDo rev. B";
+            case TelephonyManager.NETWORK_TYPE_1xRTT:
+                return "CDMA - 1xRTT";
+            case TelephonyManager.NETWORK_TYPE_LTE:
+                return "LTE";
+            case TelephonyManager.NETWORK_TYPE_EHRPD:
+                return "CDMA - eHRPD";
+            case TelephonyManager.NETWORK_TYPE_IDEN:
+                return "iDEN";
+            case TelephonyManager.NETWORK_TYPE_HSPAP:
+                return "HSPA+";
+            default:
+                return "UNKNOWN";
+        }
+    }
+
+    public static int ProcessDoubleString(String num) {
+        int collectId = App.IntNormal;
+        if (!TextUtils.isEmpty(num)) {
+            if (num.indexOf(".") != -1) {
+                collectId = Integer.parseInt(num.substring(0, num.indexOf(".")));
+            } else {
+                collectId = Integer.parseInt(num);
+            }
+        }
+        return collectId;
+    }
+
+    public static String getFileName(String url) {
+        String result = App.Empty;
+        try {
+            result = url.substring(url.lastIndexOf("/") + 1);
+        } catch (Exception ex) {
+            result = url;
+            ex.printStackTrace();
+        }
+        return result;
+    }
+
+
+    /**
+     * 检查更新
+     *
+     * @param activity
+     * @param msg
+     */
+    public static void checkUpdate(final Activity activity, final String msg) {
+        Map<String, String> params = new HashMap<String, String>();
+        params.put("type", Constants.UpdateType.ANDROID);
+        new UpdateAppManager
+                .Builder()
+                //当前Activity
+                .setActivity(activity)
+                //实现httpManager接口的对象
+                .setHttpManager(new UpdateAppHttpUtil())
+                //设置请求方式 默认get,
+                .setPost(false)
+                //更新地址
+                .setUpdateUrl(HttpApi.GetLastestVersion)
+                //添加自定义参数
+                .setParams(params)
+                //设置头部
+                .setTopPic(R.mipmap.top_8)
+                //设置主题色
+                .setThemeColor(0xff7EB2EC)
+                .build()
+                //检测是否有新版本
+                .checkNewApp(new UpdateCallback() {
+                    @Override
+                    protected UpdateAppBean parseJson(String json) {//解析json,自定义协议
+                        UpdateAppBean updateAppBean = new UpdateAppBean();
+                        try {
+                            Log.i("TAG","UpdateAppBean-->"+json);
+                            JSONObject jsonObject = new JSONObject(json);
+                            UpdateBean updateBean = new Gson().fromJson(jsonObject.optString("data"), UpdateBean.class);
+                            boolean isForceUpdate = false;
+                            if ("1".equals(updateBean.getForceUpdate())) {
+                                isForceUpdate = true;
+                            }
+                            if (updateBean != null) {
+                                if (AppUtils.isUpdate(updateBean.getVersionId())) {
+                                    //更新
+                                    String downfile = updateBean.getFileAddress();
+                                    downfile = downfile.substring(0, downfile.lastIndexOf('/') + 1) + "ilingang.apk";
+                                    updateAppBean
+                                            //是否更新Yes,No
+                                            .setUpdate("Yes")
+                                            //新版本号
+                                            .setNewVersion(updateBean.getVersionId())
+                                            //下载地址
+                                            .setApkFileUrl(HttpApi.IMAGE_BASE_SERVER + updateBean.getFileAddress())
+                                            //大小
+                                            .setTargetSize(String.valueOf(updateBean.getFileSize()))
+                                            //更新内容 测试更新内容过多
+                                            .setUpdateLog(updateBean.getUpdateContent())
+                                            //是否强制更新
+                                            .setConstraint(isForceUpdate);
+                                    //设置md5
+//                                      .setNewMd5(jsonObject.optString("new_md5ddfdfdf"));
+                                } else {//版本小于等于当前版本
+                                    updateAppBean.setUpdate("N o");
+                                }
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                        return updateAppBean;
+                    }
+
+                    /**
+                     * 有新版本
+                     * @param updateApp        新版本信息
+                     * @param updateAppManager app更新管理器
+                     */
+                    @Override
+                    public void hasNewApp(UpdateAppBean updateApp, UpdateAppManager updateAppManager) {
+                        updateAppManager.showDialog();
+                    }
+
+                    @Override
+                    public void onBefore() { //网络请求之前
+                    }
+
+                    @Override
+                    public void onAfter() {//网路请求之后
+                    }
+
+                    @Override
+                    public void noNewApp() { //没有新版本
+                        if (!TextUtils.isEmpty(msg)) {
+                            ToastUtils.showToast(activity, msg);
+                        }
+                    }
+                });
+
+    }
+}

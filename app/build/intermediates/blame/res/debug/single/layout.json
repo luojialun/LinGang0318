@@ -1,0 +1,1466 @@
+[
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/lab_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/lab_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_message_ac.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_message_ac.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_my_execute.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_my_execute.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/banner.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.youth.banner/banner/1.4.9/res/layout/banner.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/grid_view_item_album_select.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.darsh.multipleimageselect/multipleimageselect/1.0.4/res/layout/grid_view_item_album_select.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_activity_album.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_activity_album.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/widget_bottom_dialog.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/widget_bottom_dialog.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_opportunity_timed.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_opportunity_timed.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_opportunity_detailes.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_opportunity_detailes.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_need.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_need.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/menu_action_item_badge.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/menu_action_item_badge.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_info.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_info.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/detailes_more.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/detailes_more.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_policy_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_policy_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/view_contact_search_dialog.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/view_contact_search_dialog.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/toolbar_transparent.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/toolbar_transparent.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_res.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_res.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/tv_more.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/tv_more.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_image_select.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.darsh.multipleimageselect/multipleimageselect/1.0.4/res/layout/activity_image_select.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_notice_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_notice_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/jc_layout_base.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/layout/jc_layout_base.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/entry_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/entry_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_tv_tagflow.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_tv_tagflow.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_download_manage.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_download_manage.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_left.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_left.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_need_flow_task_review.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_need_flow_task_review.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_gvpop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_gvpop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_oppo_return_reason.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_oppo_return_reason.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_policy_detiales.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_policy_detiales.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_chanye1.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_chanye1.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/tv_calss.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/tv_calss.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_one.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_one.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_activity_image_grid.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_activity_image_grid.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_land_examine.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_land_examine.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_return_business.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_return_business.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_error.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_error.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_home_search_result.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_home_search_result.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_user_suggest_feed.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_user_suggest_feed.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_examine.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_examine.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_home_news_list_no_image.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_home_news_list_no_image.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_person_indo.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_person_indo.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_public.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_public.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_version_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_version_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_download_all.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_download_all.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_my_execute.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_my_execute.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_cb.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_cb.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_need_correction.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_need_correction.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/lib_update_app_dialog.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/LinGang/update-app/unspecified/res/layout/lib_update_app_dialog.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_gesture_lock_edit.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_gesture_lock_edit.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_album_select.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.darsh.multipleimageselect/multipleimageselect/1.0.4/res/layout/activity_album_select.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/tunity_det_bottom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/tunity_det_bottom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_cluster.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_cluster.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_need_flow_task_review_sub.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_need_flow_task_review_sub.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_one2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_one2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/jc_dialog_brightness.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/layout/jc_dialog_brightness.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/grid_view_item_image_select.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.darsh.multipleimageselect/multipleimageselect/1.0.4/res/layout/grid_view_item_image_select.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/one_level_pop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/one_level_pop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_reasons.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_reasons.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_explain.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_explain.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_groom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_groom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_news.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_news.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_need_flow.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_need_flow.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_popupwindow.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_popupwindow.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_nexus.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_nexus.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/recycle_nums.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/recycle_nums.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_my_examine.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_my_examine.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_setting_gesture.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_setting_gesture.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_web.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_web.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_update_tunity_two.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_update_tunity_two.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_search_hot_lable.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_search_hot_lable.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/view_contact_search_toolbar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/view_contact_search_toolbar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_week.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_week.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_business.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_business.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/plant_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/plant_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/yanzhenjie_item_default.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.yanzhenjie/recyclerview-swipe/1.0.2/res/layout/yanzhenjie_item_default.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_tv_tagflow.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_tv_tagflow.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_entry2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_entry2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_group.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_group.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/seach_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/seach_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_cluster.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_cluster.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/sc_vdieo.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/sc_vdieo.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_version_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_version_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_send_success.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_send_success.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_home_search_result.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_home_search_result.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_kan_ban_oppo_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_kan_ban_oppo_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/rg_title_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/rg_title_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_news.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_news.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_contacts_emp.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_contacts_emp.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_rec_examine.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_rec_examine.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_download_my.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_download_my.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_tj_tunity_three.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_tj_tunity_three.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/newadd_fragment.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/newadd_fragment.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_home_search_history.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_home_search_history.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_flow_review.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_flow_review.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_expendlist_child.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_expendlist_child.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_widget_toolbar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/layout/picture_widget_toolbar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_rltunity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_rltunity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/layout_basepickerview.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/layout/layout_basepickerview.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_partner.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_partner.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_ji_qun_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_ji_qun_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/view_search_toolbar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/view_search_toolbar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_correct_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_correct_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_lv_home.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_lv_home.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_contacts_dep.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_contacts_dep.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_entry.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_entry.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/rv_center_pop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/rv_center_pop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_business.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_business.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_mating.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_mating.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_week.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_week.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_bottom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_bottom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_base_seach.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_base_seach.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_activity_video_play.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_activity_video_play.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_start.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_start.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_ranking.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_ranking.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_me_share.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_me_share.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/refreshview.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/refreshview.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_user.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_user.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/view_popupwindow.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/view_popupwindow.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/include_pickerview_topbar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/layout/include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_suppiy_ac.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_suppiy_ac.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_mating_detailes.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_mating_detailes.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_claim_detailes.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_claim_detailes.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_tag.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.kingideayou/tagcloudview/1.0.2/res/layout/item_tag.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_version_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_version_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/gv_filter_image.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/gv_filter_image.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_user_correct.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_user_correct.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_board.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_board.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/view_sinaheader.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.lcodecorex/tkrefreshlayout/1.0.7/res/layout/view_sinaheader.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_chan_ye_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_chan_ye_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_correction_result.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_correction_result.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_img_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_img_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_contacts.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_contacts.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_zone_per.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_zone_per.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_business_review.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_business_review.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_groom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_groom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_left.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_left.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/layout_tab_right.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.1.2/res/layout/layout_tab_right.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/tunity_det_top.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/tunity_det_top.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/pop_btn_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/pop_btn_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_select_person.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_select_person.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_bottom2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_bottom2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_sys_msg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_sys_msg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_activity_multi_cutting.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/layout/picture_activity_multi_cutting.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_contacts_dialog.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_contacts_dialog.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/crop__activity_crop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.soundcloud.android.crop/lib_crop/1.0.0/res/layout/crop__activity_crop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_meg_home.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_meg_home.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/chanye_pop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/chanye_pop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_policy_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_policy_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/pop_chanye.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/pop_chanye.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_feedback_result.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_feedback_result.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_entry.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_entry.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_groom_detailes_zx.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_groom_detailes_zx.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/two_level_pop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/two_level_pop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_entry.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_entry.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_my_claim.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_my_claim.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_preview.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_preview.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_chanye2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_chanye2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/jc_dialog_progress.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/layout/jc_dialog_progress.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_rl_tunity_detailes.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_rl_tunity_detailes.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_need_flow.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_need_flow.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/ac_rl_tunity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/ac_rl_tunity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/crop__layout_done_cancel.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.soundcloud.android.crop/lib_crop/1.0.0/res/layout/crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_ucrop_view.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/layout/picture_ucrop_view.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_property.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_property.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/recycle_view_single.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/recycle_view_single.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_zone.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_zone.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_news_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_news_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/rl_tunity_detailes_bottom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/rl_tunity_detailes_bottom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_two_call.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_two_call.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_cluster.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_cluster.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_investment_type.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_investment_type.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/layout_tab_top.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.1.2/res/layout/layout_tab_top.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_submit_land.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_submit_land.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_entry_per.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_entry_per.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_notice.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_notice.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/jc_dialog_volume.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/layout/jc_dialog_volume.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_update_execute.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_update_execute.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/pickerview_options.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/layout/pickerview_options.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_cancel.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_cancel.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/title_app.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/title_app.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_week.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_week.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/widget_dialog_normal.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/widget_dialog_normal.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_claim.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_claim.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_park.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_park.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_policy.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_policy.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_home_news_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_home_news_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_mating.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_mating.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_yuanqu.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_yuanqu.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_business.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_business.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/all_business.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/all_business.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_update_tunity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_update_tunity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/jc_layout_standard.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/layout/jc_layout_standard.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_tj_tunity_two.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_tj_tunity_two.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_record.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_record.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_feedback_review.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_feedback_review.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_transfer_illustration.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_transfer_illustration.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_need_business_title.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_need_business_title.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_news_search.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_news_search.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_groom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_groom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/ac_base.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/ac_base.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_favorites_policy.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_favorites_policy.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_gv_home.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_gv_home.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_activity_external_preview.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_activity_external_preview.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_welfare.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_welfare.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_expendlist_group.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_expendlist_group.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/pop_zone.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/pop_zone.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/dialog_two.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/dialog_two.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_setting.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_setting.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/sc_det_cail.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/sc_det_cail.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_pic_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_pic_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_selectper.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_selectper.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/layout_tab_segment.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.1.2/res/layout/layout_tab_segment.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_business_result.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_business_result.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_update_execute.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_update_execute.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_success.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_success.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_tagflow_tunity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_tagflow_tunity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_change_nick.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_change_nick.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_week_plan.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_week_plan.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_favorites.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_favorites.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_partner.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_partner.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_contrac.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_contrac.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_news.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_news.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_investment.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_investment.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_gesture_lock_login.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_gesture_lock_login.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_album_folder_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_album_folder_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fg_scrolltab.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fg_scrolltab.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_two_zone.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_two_zone.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/layout_tab_left.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.1.2/res/layout/layout_tab_left.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_user_favorites.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_user_favorites.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/widget_ranking_rules_dialog.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/widget_ranking_rules_dialog.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/tv_tagflow.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/tv_tagflow.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_tj_one_tunity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_tj_one_tunity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/layout_tab.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.1.2/res/layout/layout_tab.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_favorites_news.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_favorites_news.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_tunity_result.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_tunity_result.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_customer_pop2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_customer_pop2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/land_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/land_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/gv_pop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/gv_pop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_claim.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_claim.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_rvcenter.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_rvcenter.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_contacts_search.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_contacts_search.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_dialog_bottom2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_dialog_bottom2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_suggest_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_suggest_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/pickerview_time.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/layout/pickerview_time.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_contnet_week.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_contnet_week.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_notice.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_notice.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_send_success_park.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_send_success_park.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_my_claim.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_my_claim.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_class.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_class.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_onelevel.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_onelevel.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/widget_dialog_share.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/widget_dialog_share.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_img_big.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_img_big.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_need_business.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_need_business.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_activity_image_preview.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_activity_image_preview.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_home_search.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_home_search.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_fragment_image_preview.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_fragment_image_preview.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/sc_det_person.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/sc_det_person.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_suggest_add.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_suggest_add.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_contract_summary.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_contract_summary.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_favorites_public.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_favorites_public.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_big_head.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_big_head.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_need_feedback.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_need_feedback.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/work_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/work_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/pop_customer.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/pop_customer.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_image_grid_item.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_image_grid_item.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_need_business_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_need_business_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_download.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_download.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_partner_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_partner_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/ranking_title_app.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/ranking_title_app.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_supplement.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_supplement.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_pdf_viewer_activity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_pdf_viewer_activity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/view_bezier.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.lcodecorex/tkrefreshlayout/1.0.7/res/layout/view_bezier.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_user_modify_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_user_modify_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_lv_zone.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_lv_zone.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_ucrop_activity_photobox.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/layout/picture_ucrop_activity_photobox.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/tunity_detailes.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/tunity_detailes.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_public.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_public.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/zhuc_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/zhuc_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_contacts_emp_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_contacts_emp_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_need_correction_review.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_need_correction_review.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_home_search.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_home_search.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_tj_tunity.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_tj_tunity.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/tv_newsnum.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/tv_newsnum.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_contacts_company.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_contacts_company.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_gf_adapter_edit_list.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/layout/picture_gf_adapter_edit_list.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_newadd.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_newadd.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/policy_fragment.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/policy_fragment.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/layout_tab_bottom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.flyco.tablayout/FlycoTabLayout_Lib/2.1.2/res/layout/layout_tab_bottom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/recycleview.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/recycleview.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_park.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_park.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_seach_yuan_qu.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_seach_yuan_qu.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_item_camera.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/layout/picture_item_camera.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/item_favorites_business.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/item_favorites_business.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/pop_customer2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/pop_customer2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/seach_title.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/seach_title.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/fragment_update_tunity_one.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/fragment_update_tunity_one.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_team.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_team.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_opp_examine_details.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_opp_examine_details.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/picture_alert_dialog.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/layout/picture_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/swipe_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/swipe_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/toolbar.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.darsh.multipleimageselect/multipleimageselect/1.0.4/res/layout/toolbar.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_transfer.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_transfer.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/flow_sj.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/flow_sj.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/itme_pic.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/itme_pic.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_yuan_qu.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_yuan_qu.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/activity_nexus.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/activity_nexus.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/custom_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/layout/custom_layout.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_layout.xml"
+    }
+]

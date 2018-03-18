@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ac_bg"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_reasons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_10"
+        android:paddingTop="@dimen/margin_10">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            style="@style/reasons_stytle"
+            android:text="客户取消投资意愿" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:background="@color/line" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            style="@style/reasons_stytle"
+            android:text="园区资源和客户需求不匹配" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:background="@color/line" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            style="@style/reasons_stytle"
+            android:text="客户已经入驻其他园区" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:background="@color/line" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            style="@style/reasons_stytle"
+            android:text="其他原因" />
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:id="@+id/ll_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_suppiy"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@color/white"
+            android:gravity="left|top"
+            android:hint="请说明撤回商机的具体原因"
+            android:maxEms="300"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingLeft="@dimen/margin_15"
+            android:paddingRight="@dimen/margin_15"
+            android:paddingTop="@dimen/margin_10"
+            android:textColorHint="@color/grenn"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="right"
+            android:paddingBottom="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_15"
+            android:text="0/300"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_12" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="撤回原因将作为招商系统重要统计信息"
+            android:textColor="@color/grenn"
+            android:textSize="@dimen/text_12" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_50"
+        android:layout_marginLeft="@dimen/margin_20"
+        android:layout_marginRight="@dimen/margin_20"
+        android:layout_marginTop="@dimen/margin_40"
+        android:background="@drawable/yellow_cir_rect"
+        android:text="提 交"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_16" />
+
+</LinearLayout>

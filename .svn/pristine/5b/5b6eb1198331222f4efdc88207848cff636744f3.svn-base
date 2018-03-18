@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/layout_backgroud_gray"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/setting_user_details_rl"
+                android:layout_width="match_parent"
+                android:layout_height="116dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="15dp">
+
+                <ImageView
+                    android:id="@+id/setting_user_icon"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/pic" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/setting_user_icon"
+                    android:orientation="vertical"
+                    android:paddingLeft="15dp">
+
+                    <TextView
+                        android:id="@+id/setting_user_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:textColor="@color/black_80"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/setting_user_company_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@+id/setting_user_icon"
+                        android:maxLines="1"
+                        android:textColor="@color/black_50"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/go" />
+            </RelativeLayout>
+
+            <com.lingang.view.SettingItem
+                android:id="@+id/setting_gesture"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                app:itemText="解锁手势"
+                app:itemTextColor="@color/black_70" />
+
+            <com.lingang.view.SettingItem
+                android:id="@+id/setting_clear_cache"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                app:itemText="清除缓存"
+                app:itemTextColor="@color/black_70"
+                app:rightText="4545"
+                app:rightTextColor="@color/black_40"
+                app:showArrow="gone" />
+
+            <com.lingang.view.SettingItem
+                android:id="@+id/setting_check_updater"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                app:itemText="软件版本"
+                app:itemTextColor="@color/black_70" />
+
+            <com.lingang.view.SettingItem
+                android:id="@+id/setting_version_record"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/white"
+                app:itemText="版本记录"
+                app:itemTextColor="@color/black_70" />
+
+            <TextView
+                android:id="@+id/setting_exit_login_tv"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="退出登录"
+                android:textColor="@color/word_orange_color_F57725"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

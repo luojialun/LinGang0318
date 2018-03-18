@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--商机详情流程-时间轴-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <View
+            android:id="@+id/need_flow_line_start"
+            android:layout_width="1dp"
+            android:layout_height="7dp"
+            android:background="@color/line"/>
+            <ImageView
+                android:id="@+id/flow_state_iv"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+
+                android:background="@drawable/selector_flow_state_icon" />
+            <View
+                android:id="@+id/need_flow_line"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/line"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/opportunity_timed_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="111111"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_16" />
+
+        <TextView
+            android:id="@+id/opportunity_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="111111"
+            android:textColor="@color/black_30"
+            android:textSize="@dimen/text_14" />
+
+        <TextView
+            android:id="@+id/opportunity_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111111"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black_40"
+            android:textSize="@dimen/text_14" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+    <!-- 自定义圆角ImageView -->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+    <!--页签流式布局-->
+    <declare-styleable name="TagFlowLayout">
+        <attr name="auto_select_effect" format="boolean"></attr>
+        <attr name="max_select" format="integer"></attr>
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 自定义圆形进度条，属性设置 -->
+    <declare-styleable name="CustomCircleProgress">
+        <!-- 默认圆的颜色 -->
+        <attr name="progress_default_color" format="color" />
+        <!-- 进度圆的颜色 -->
+        <attr name="progress_reached_color" format="color" />
+        <!-- 进度条的高度 -->
+        <attr name="progress_reached_height" format="dimension" />
+        <!-- 无进度时(默认圆)的边框高 -->
+        <attr name="progress_default_height" format="dimension" />
+        <!-- 圆的半径 -->
+        <attr name="circle_radius" format="dimension" />
+    </declare-styleable>
+
+    <!--MaterialBadge-->
+    <declare-styleable name="MaterialBadgeTextView">
+        <attr name="android:background" />
+        <attr name="mbtv_border_width" format="dimension" />
+        <attr name="mbtv_border_color" format="color" />
+        <attr name="mbtv_border_alpha" format="float" />
+        <attr name="mbtv_type" format="enum">
+            <enum name="shadow_gradual" value="1" />
+            <enum name="shadow_alpha" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!--侧滑删除-->
+    <declare-styleable name="SwipeMenuLayout">
+        <attr name="swipeEnable" format="boolean" />
+        <attr name="ios" format="boolean" />
+        <attr name="leftSwipe" format="boolean" />
+    </declare-styleable>
+
+
+    <!--手势指示器圆点状态颜色-->
+    <declare-styleable name="LockPatternIndicator">
+        <attr name="indicatorDefaultColor" format="reference|color" />
+        <attr name="indicatorSelectColor" format="reference|color" />
+    </declare-styleable>
+    <!--手势框中哥圆点的状态颜色-->
+    <declare-styleable name="LockPatternView">
+        <attr name="defaultColor" format="reference|color" />
+        <attr name="selectColor" format="reference|color" />
+        <attr name="errorColor" format="reference|color" />
+    </declare-styleable>
+
+    <!--自定义webview 支持文字两端对齐-->
+    <declare-styleable name="JustifiedWebView">
+        <attr name="text" format="reference" />
+        <attr name="autoLink">
+            <flag name="phone" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--自定义view 支持文字两端对齐 文字最后可以。。。-->
+    <declare-styleable name="alignText">
+        <attr name="tvColor" format="color" />
+        <attr name="lineSpacingExtra" format="dimension" />
+        <attr name="maxLines" format="integer" />
+        <attr name="isColon" format="boolean" />
+        <attr name="tvSize" format="dimension" />
+        <attr name="content" format="string" />
+    </declare-styleable>
+
+
+    <!--自定义view 支持上下滚动的广告控件-->
+    <declare-styleable name="ScrollTextView">
+        <attr name="leftDrawable" format="integer" />
+    </declare-styleable>
+</resources>

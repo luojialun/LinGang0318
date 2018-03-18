@@ -1,0 +1,862 @@
+[
+    {
+        "outputFile": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en/values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 48,
+                    "endOffset": 150
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 48,
+                        "endOffset": 150
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 155,
+                    "endColumn": 47,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 155,
+                        "endColumn": 47,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 52,
+                    "endOffset": 251
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 52,
+                        "endOffset": 251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 256,
+                    "endColumn": 41,
+                    "endOffset": 293
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 256,
+                        "endColumn": 41,
+                        "endOffset": 293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 298,
+                    "endColumn": 41,
+                    "endOffset": 335
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 298,
+                        "endColumn": 41,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 340,
+                    "endColumn": 35,
+                    "endOffset": 371
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 35,
+                        "endOffset": 371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 376,
+                    "endColumn": 50,
+                    "endOffset": 422
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 376,
+                        "endColumn": 50,
+                        "endOffset": 422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 427,
+                    "endColumn": 54,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 427,
+                        "endColumn": 54,
+                        "endOffset": 477
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 482,
+                    "endColumn": 53,
+                    "endOffset": 531
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 482,
+                        "endColumn": 53,
+                        "endOffset": 531
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 536,
+                    "endColumn": 87,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 536,
+                        "endColumn": 87,
+                        "endOffset": 619
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 624,
+                    "endColumn": 90,
+                    "endOffset": 710
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 90,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 715,
+                    "endColumn": 62,
+                    "endOffset": 773
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 62,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 778,
+                    "endColumn": 82,
+                    "endOffset": 856
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 82,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 861,
+                    "endColumn": 72,
+                    "endOffset": 929
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 72,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 934,
+                    "endColumn": 88,
+                    "endOffset": 1018
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 88,
+                        "endOffset": 708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1023,
+                    "endColumn": 85,
+                    "endOffset": 1104
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 713,
+                        "endColumn": 85,
+                        "endOffset": 794
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1109,
+                    "endColumn": 50,
+                    "endOffset": 1155
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 799,
+                        "endColumn": 50,
+                        "endOffset": 845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1160,
+                    "endColumn": 40,
+                    "endOffset": 1196
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 40,
+                        "endOffset": 886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1201,
+                    "endColumn": 39,
+                    "endOffset": 1236
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 39,
+                        "endOffset": 926
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1241,
+                    "endColumn": 52,
+                    "endOffset": 1289
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 52,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1294,
+                    "endColumn": 35,
+                    "endOffset": 1325
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 35,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1330,
+                    "endColumn": 37,
+                    "endOffset": 1363
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 144,
+                        "endColumn": 37,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1368,
+                    "endColumn": 39,
+                    "endOffset": 1403
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 39,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1408,
+                    "endColumn": 37,
+                    "endOffset": 1441
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 37,
+                        "endOffset": 255
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1446,
+                    "endColumn": 39,
+                    "endOffset": 1481
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 39,
+                        "endOffset": 295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1486,
+                    "endColumn": 50,
+                    "endOffset": 1532
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 50,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1537,
+                    "endColumn": 36,
+                    "endOffset": 1569
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 351,
+                        "endColumn": 36,
+                        "endOffset": 383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1574,
+                    "endColumn": 43,
+                    "endOffset": 1613
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 931,
+                        "endColumn": 43,
+                        "endOffset": 970
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1618,
+                    "endColumn": 55,
+                    "endOffset": 1669
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 975,
+                        "endColumn": 55,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1674,
+                    "endColumn": 43,
+                    "endOffset": 1713
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1031,
+                        "endColumn": 43,
+                        "endOffset": 1070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1718,
+                    "endColumn": 53,
+                    "endOffset": 1767
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1075,
+                        "endColumn": 53,
+                        "endOffset": 1124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1772,
+                    "endColumn": 48,
+                    "endOffset": 1816
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1129,
+                        "endColumn": 48,
+                        "endOffset": 1173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1821,
+                    "endColumn": 53,
+                    "endOffset": 1870
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1178,
+                        "endColumn": 53,
+                        "endOffset": 1227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1875,
+                    "endColumn": 53,
+                    "endOffset": 1924
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1232,
+                        "endColumn": 53,
+                        "endOffset": 1281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1929,
+                    "endColumn": 45,
+                    "endOffset": 1970
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1286,
+                        "endColumn": 45,
+                        "endOffset": 1327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1975,
+                    "endColumn": 60,
+                    "endOffset": 2031
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 365,
+                        "endColumn": 60,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2036,
+                    "endColumn": 104,
+                    "endOffset": 2136
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endColumn": 104,
+                        "endOffset": 526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2141,
+                    "endColumn": 51,
+                    "endOffset": 2188
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 531,
+                        "endColumn": 51,
+                        "endOffset": 578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2193,
+                    "endColumn": 109,
+                    "endOffset": 2298
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 583,
+                        "endColumn": 109,
+                        "endOffset": 688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2303,
+                    "endColumn": 129,
+                    "endOffset": 2428
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 693,
+                        "endColumn": 129,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2433,
+                    "endColumn": 111,
+                    "endOffset": 2540
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 823,
+                        "endColumn": 111,
+                        "endOffset": 930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2545,
+                    "endColumn": 41,
+                    "endOffset": 2582
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 935,
+                        "endColumn": 41,
+                        "endOffset": 972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 2587,
+                    "endColumn": 66,
+                    "endOffset": 2649
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.jph.takephoto/takephoto_library/4.0.3/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 977,
+                        "endColumn": 66,
+                        "endOffset": 1039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2654,
+                    "endColumn": 35,
+                    "endOffset": 2685
+                },
+                "from": {
+                    "file": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/values-en/values-en.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1332,
+                        "endColumn": 35,
+                        "endOffset": 1363
+                    }
+                }
+            }
+        ]
+    }
+]

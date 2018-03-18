@@ -1,0 +1,646 @@
+[
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_title_bg.9.png",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_title_bg.9.png"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_flow_state_tab_orange.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_flow_state_tab_orange.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_flow_state_tab.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_flow_state_tab.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/dialog_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/checkbox_num_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/drawable/checkbox_num_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/news_like_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/news_like_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_seek_thumb_normal.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_seek_thumb_normal.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/rv_touch_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/rv_touch_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/yellow_cir_rect.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/yellow_cir_rect.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/shape_search_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/shape_search_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/check_green.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/drawable/check_green.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_right.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.barteksc/android-pdf-viewer/2.3.0/res/drawable/default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/grenn_rect_sele.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/grenn_rect_sele.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_button_text_color.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/item_divider_tran_magin5.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/item_divider_tran_magin5.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/main_item_divider.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/main_item_divider.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/dialog_call_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/dialog_call_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_click_back_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_click_back_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/wight_rect.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/wight_rect.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/checkbox_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/drawable/checkbox_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/item_divider_acbg_magin15.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/item_divider_acbg_magin15.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_flow_state_tab_green.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_flow_state_tab_green.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_click_error_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_click_error_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_dialog_progress.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_dialog_progress.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/gray_radius.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.youth.banner/banner/1.4.9/res/drawable/gray_radius.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/yellow_rect.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/yellow_rect.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_bottom_bg.9.png",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_bottom_bg.9.png"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/yellow_tab.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/yellow_tab.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/shape_search_hot_lable_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/shape_search_hot_lable_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/tx_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/tx_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/opp_details_oval_time.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/opp_details_oval_time.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_dialog_progress_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_dialog_progress_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/ucrop_vector_loader_animated.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/ucrop_vector_loader_animated.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/ucrop_shadow_upside.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/ucrop_shadow_upside.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_bottom_seek_thumb.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_bottom_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/groom_rect.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/groom_rect.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/yellow_cir_rect_like.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/yellow_cir_rect_like.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/red_point.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/red_point.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/message_oval_blue.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/drawable/message_oval_blue.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/contact_search_dialog_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/contact_search_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_bottom_progress.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_bottom_progress.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/crop__texture.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.soundcloud.android.crop/lib_crop/1.0.0/res/drawable/crop__texture.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_flow_state_icon.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_flow_state_icon.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/ucrop_vector_loader.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/ucrop_vector_loader.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_loading.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_loading.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/zhuc_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/zhuc_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/review_item_divider.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/review_item_divider.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/shape_white_corner8.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/shape_white_corner8.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_bottom_seek_progress.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_bottom_seek_progress.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/item_select_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/item_select_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/ucrop_vector_ic_crop.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/ucrop_vector_ic_crop.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/black_circle.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/black_circle.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_flow_state_tab_blue.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_flow_state_tab_blue.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/share_pdf_page_index_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/share_pdf_page_index_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/crop_oval_true.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/crop_oval_true.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_main_bottom_navigation_home.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_main_bottom_navigation_home.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_widget_dialog_midbtn.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_widget_dialog_midbtn.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_widget_dialog_rightbtn.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_widget_dialog_rightbtn.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/need_item_divider.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/need_item_divider.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_main_bottom_navigation_statistics.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_main_bottom_navigation_statistics.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/shape_banner_indicator_select.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/shape_banner_indicator_select.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_click_back_tiny_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_click_back_tiny_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/wight_circle.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/wight_circle.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/gray_point.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/gray_point.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/grenn_rect2.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/grenn_rect2.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/shape_mine_top.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/shape_mine_top.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_pickerview_btn.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/3.2.5/res/drawable/selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_camera_dialog_top.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_camera_dialog_top.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/error_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/error_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/progress_bar_states.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/progress_bar_states.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/black_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.youth.banner/banner/1.4.9/res/drawable/black_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_click_play_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_click_play_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/login_code_bg_enable.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/login_code_bg_enable.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_camera_dialog_single.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_camera_dialog_single.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_seek_thumb_pressed.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_seek_thumb_pressed.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/image_placeholder.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/image_placeholder.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_groom_title_state.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_groom_title_state.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/code_rectangle.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/code_rectangle.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/crop__selectable_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.soundcloud.android.crop/lib_crop/1.0.0/res/drawable/crop__selectable_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/design_password_eye.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/tran_cri.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/tran_cri.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/shape_search_toolbar_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/shape_search_toolbar_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/groom_tan_rect.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/groom_tan_rect.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/checkbox_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/checkbox_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/gonggao_lable_rectangle.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/gonggao_lable_rectangle.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_flow_sub.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_flow_sub.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/anim_loading_view.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.lcodecorex/tkrefreshlayout/1.0.7/res/drawable/anim_loading_view.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_main_bottom_navigation_query.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_main_bottom_navigation_query.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/divider_recycler.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/divider_recycler.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/message_oval.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/picture_library/v1.2.5/res/drawable/message_oval.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/groom_wight.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/groom_wight.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/grenn_rect_s.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/grenn_rect_s.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/loading_progress_small.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/loading_progress_small.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/home_pop_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/home_pop_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_camera_dialog_bottom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_camera_dialog_bottom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_main_bottom_navigation_my.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_main_bottom_navigation_my.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/checkbox_style.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/checkbox_style.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/grenn_rect.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/grenn_rect.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_bottom.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.barteksc/android-pdf-viewer/2.3.0/res/drawable/default_scroll_handle_bottom.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/time_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/time_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/dialog_custom_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.LuckSiege.PictureSelector/ucrop/v1.2.5/res/drawable/dialog_custom_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_top.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.barteksc/android-pdf-viewer/2.3.0/res/drawable/default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/item_divider_tran_magin15.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/item_divider_tran_magin15.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/switch_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/switch_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/opp_details_oval.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/opp_details_oval.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_volume_progress_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_volume_progress_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/lib_update_app_info_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/LinGang/update-app/unspecified/res/drawable/lib_update_app_info_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_widget_dialog_leftbtn.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_widget_dialog_leftbtn.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/jc_click_pause_selector.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/fm.jiecao/jiecaovideoplayer/5.5.4/res/drawable/jc_click_pause_selector.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/item_divider_tran.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/item_divider_tran.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_setting_item_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_setting_item_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/msg_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/msg_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/progressbar_horizontal.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/progressbar_horizontal.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/bottom_navigation_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/bottom_navigation_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/white_radius.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.youth.banner/banner/1.4.9/res/drawable/white_radius.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/default_scroll_handle_left.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.barteksc/android-pdf-viewer/2.3.0/res/drawable/default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/shape_banner_indicator_normal.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/shape_banner_indicator_normal.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/tag_background.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/exploded-aar/com.github.kingideayou/tagcloudview/1.0.2/res/drawable/tag_background.xml"
+    },
+    {
+        "merged": "/Users/luojialun/Desktop/LinGang/app/build/intermediates/res/merged/release/drawable/selector_camera_dialog_middle.xml",
+        "source": "/Users/luojialun/Desktop/LinGang/app/src/main/res/drawable/selector_camera_dialog_middle.xml"
+    }
+]

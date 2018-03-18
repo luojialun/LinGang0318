@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:tr_enable_loadmore="false"
+    app:tr_enable_refresh="false"
+    tools:context="com.lingang.activity.business.ContractSummaryAc">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--企业名称-->
+            <LinearLayout
+                android:id="@+id/message2_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/company_name_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="10dp"
+                    app:itemText="企业名称"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/yuanqu_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="8dp"
+                    app:itemText="落地园区"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+            </LinearLayout>
+
+            <!--厂房-->
+            <LinearLayout
+                android:id="@+id/workshop_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.lingang.view.SettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    app:itemText="商机需求信息"
+                    app:itemTextColor="@color/black_70"
+                    app:itemTextSize="16sp"
+                    app:leftdrawable="@mipmap/ic_changfang"
+                    app:rightText="厂房"
+                    app:rightTextSize="16sp"
+                    app:showArrow="gone"
+                    app:showdivider="true" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/changfang1_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="12dp"
+                    app:itemText="落地形式"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/changfang2_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="面积需求"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/changfang3_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="区位要求"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/changfang4_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="租期"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+            </LinearLayout>
+
+            <!--研发办公 -->
+            <LinearLayout
+                android:id="@+id/office_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.lingang.view.SettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    app:itemText="商机需求信息"
+                    app:itemTextColor="@color/black_70"
+                    app:itemTextSize="16sp"
+                    app:leftdrawable="@mipmap/ic_yanfabangong"
+                    app:rightText="研发办公"
+                    app:rightTextSize="16sp"
+                    app:showArrow="gone"
+                    app:showdivider="true" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/yanfa1_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="12dp"
+                    app:itemText="落地形式"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/yanfa2_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="面积需求"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/yanfa3_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="区位要求"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/yanfa4_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="区位要求"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+            </LinearLayout>
+
+            <!--土地 -->
+            <LinearLayout
+                android:id="@+id/land_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.lingang.view.SettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    app:itemText="商机需求信息"
+                    app:itemTextColor="@color/black_70"
+                    app:itemTextSize="16sp"
+                    app:leftdrawable="@mipmap/ic_tudi"
+                    app:rightText="土地"
+                    app:rightTextSize="16sp"
+                    app:showArrow="gone"
+                    app:showdivider="true" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/buy_land_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="12dp"
+                    app:itemText="购买土地"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/land_price_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="购买土地总价格"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/land_years_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="使用年限"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/land_property_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="土地性质"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/land_get_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="土地获取方式"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+            </LinearLayout>
+
+            <!--注册 -->
+            <LinearLayout
+                android:id="@+id/register_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.lingang.view.SettingItem
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    app:itemText="商机需求信息"
+                    app:itemTextColor="@color/black_70"
+                    app:itemTextSize="16sp"
+                    app:leftdrawable="@mipmap/ic_zhucexing"
+                    app:rightText="注册型企业"
+                    app:rightTextSize="16sp"
+                    app:showArrow="gone"
+                    app:showdivider="true" />
+
+                <com.lingang.view.SettingItem
+                    android:id="@+id/registeredEnterpriseMoney_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:paddingBottom="8dp"
+                    android:paddingTop="8dp"
+                    app:itemText="注册资金"
+                    app:itemTextColor="@color/black_40"
+                    app:itemTextSize="14dp"
+                    app:leftdrawablevisivle="false"
+                    app:rightTextColor="@color/black"
+                    app:showArrow="gone"
+                    app:showdivider="false" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>

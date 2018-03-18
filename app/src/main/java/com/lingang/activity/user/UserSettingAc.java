@@ -1,0 +1,240 @@
+package com.lingang.activity.user;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v4.content.ContextCompat;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.target.Target;
+import com.google.gson.Gson;
+import com.google.zxing.datamatrix.decoder.Version;
+import com.lingang.App;
+import com.lingang.R;
+import com.lingang.activity.login.LoginAc;
+import com.lingang.base.BaseAc;
+import com.lingang.bean.BaseEntity;
+import com.lingang.bean.UpdateBean;
+import com.lingang.bean.UserInfo;
+import com.lingang.common.Constants;
+import com.lingang.common.LoginManager;
+import com.lingang.glide.GlideCatchUtil;
+import com.lingang.glide.GlideImgManager;
+import com.lingang.http.HttpApi;
+import com.lingang.http.ResCallBack;
+import com.lingang.http.manager.UpdateAppHttpUtil;
+import com.lingang.utils.AppUtils;
+import com.lingang.utils.ToastUtils;
+import com.lingang.view.CircleImageView;
+import com.lingang.view.SettingItem;
+import com.lingang.view.dialog.DialogCallback;
+import com.lingang.view.dialog.NormalAlertDialog;
+import com.lingang.view.dialog.NormalDialog;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.model.HttpParams;
+import com.vector.update_app.UpdateAppBean;
+import com.vector.update_app.UpdateAppManager;
+import com.vector.update_app.UpdateCallback;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+import butterknife.BindView;
+import butterknife.OnClick;
+import cn.jpush.android.api.JPushInterface;
+import cn.jpush.android.api.TagAliasCallback;
+import okhttp3.Call;
+import okhttp3.Response;
+
+/**
+ * Created by jason on 17/6/12.
+ * 设置
+ */
+
+public class UserSettingAc extends BaseAc {
+    @BindView(R.id.setting_user_icon)
+    ImageView settingUserIcon;
+    @BindView(R.id.setting_user_name_tv)
+    TextView settingUserNameTv;
+    @BindView(R.id.setting_user_company_tv)
+    TextView settingUserCompanyTv;
+    @BindView(R.id.setting_user_details_rl)
+    RelativeLayout settingUserDetailsRl;
+    @BindView(R.id.setting_gesture)
+    SettingItem settingGesture;
+    @BindView(R.id.setting_clear_cache)
+    SettingItem settingClearCache;
+    @BindView(R.id.setting_check_updater)
+    SettingItem settingCheckUpdater;
+    @BindView(R.id.setting_exit_login_tv)
+    TextView settingExitLoginTv;
+    @BindView(R.id.setting_version_record)
+    SettingItem settingVersionRecord;
+
+    private NormalDialog dialog;
+    boolean jPush = false;
+    boolean logout = false;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        contentView(R.layout.activity_setting);
+        initView();
+    }
+
+    private void initView() {
+        setTitle(getString(R.string.setting));
+        dialog = new NormalDialog(this);
+        settingClearCache.setRightText(GlideCatchUtil.getInstance().getCacheSize());
+        settingCheckUpdater.setRightText(AppUtils.getVersionName(UserSettingAc.this));
+        settingCheckUpdater.setRightTextColor(ContextCompat.getColorStateList(UserSettingAc.this, R.color.black_40));
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        renderUserInfo();
+    }
+
+    /**
+     * 渲染用户信息
+     */
+    private void renderUserInfo() {
+        final UserInfo userInfo = LoginManager.getInstance().getUserInfo();
+        if (userInfo != null) {
+            settingUserNameTv.setText(userInfo.getUserName());
+            settingUserCompanyTv.setText(userInfo.getUserCompany());
+        }
+        GlideImgManager.glideLoaderHead(this, HttpApi.IMAGE_BASE_SERVER + userInfo.getImgPath(), settingUserIcon);
+    }
+
+    /**
+     * 跳转页面
+     *
+     * @param context
+     */
+    public static void goUserSettingAc(Context context) {
+        Intent intent = new Intent(context, UserSettingAc.class);
+        context.startActivity(intent);
+    }
+
+    @OnClick({R.id.setting_user_details_rl, R.id.setting_gesture, R.id.setting_clear_cache, R.id.setting_check_updater, R.id.setting_exit_login_tv, R.id.setting_version_record})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.setting_user_details_rl:
+                UserInfoAc.goToUserInfoAc(UserSettingAc.this);
+                break;
+            case R.id.setting_gesture:
+                SettingGestureActivity.goToSettingGestureActivity(this);
+                break;
+            case R.id.setting_clear_cache:
+                dialog.showConfirm("确认要清除缓存？", "取消", "确认", new DialogCallback<Boolean>() {
+                    @Override
+                    public void selectResult(Boolean aBoolean) {
+                        if (aBoolean) {
+                            if (GlideCatchUtil.getInstance().clearCacheDiskSelf()) {
+                                ToastUtils.showToast(UserSettingAc.this, "清除缓存成功");
+                                settingClearCache.setRightText("0.00k");
+                            } else {
+                                ToastUtils.showToast(UserSettingAc.this, "清除缓存失败");
+                            }
+                        }
+                    }
+                });
+                break;
+            case R.id.setting_check_updater:
+                if (isNetwork()) {
+                   AppUtils.checkUpdate(this,"当前是最新版!");
+                } else {
+                    ToastUtils.showToast(UserSettingAc.this, getString(R.string.net_error));
+                }
+                break;
+            case R.id.setting_version_record:
+                Intent intent = new Intent(this, VersionListAc.class);
+                startActivity(intent);
+                break;
+            case R.id.setting_exit_login_tv:
+                dialog.showConfirm("确认要退出登录？", "取消", "确认", new DialogCallback<Boolean>() {
+                    @Override
+                    public void selectResult(Boolean aBoolean) {
+                        if (aBoolean) {
+                            setJPush();
+                            logout();
+                        }
+                    }
+                });
+                break;
+        }
+    }
+
+    public Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            if (jPush && logout) {
+                //清除所有cook
+                OkGo.getInstance().getCookieJar().getCookieStore().removeAllCookie();
+                LoginManager.getInstance().clearLogin();
+                OkGo.getInstance().getCookieJar().getCookieStore().removeAllCookie();
+                LoginAc.goToLoginAc(UserSettingAc.this);
+            }
+
+        }
+    };
+
+    public void setJPush() {
+        Set<String> set = new HashSet<>();
+        JPushInterface.setTags(UserSettingAc.this, set, new TagAliasCallback() {
+
+            @Override
+            public void gotResult(int i, String s, Set<String> set) {
+                Log.i("TAG", "i-->" + i + "s-->" + s);
+                if (i == 0 || i == 6011) {
+                    jPush = true;
+                    handler.sendEmptyMessage(0);
+                } else {
+                    setJPush();
+                }
+            }
+        });
+    }
+
+    public void logout() {
+        HttpParams params = new HttpParams();
+        params.put("token", LoginManager.getInstance().getToken());
+        OkGo.post(HttpApi.LOGOUT).params(params).tag(this).execute(new ResCallBack<String>(this) {
+            @Override
+            public void onCall(String s, Call call, Response response) throws JSONException {
+                logout = true;
+                handler.sendEmptyMessage(0);
+            }
+
+            @Override
+            public void onError(Call call, Response response, Exception e) {
+                super.onError(call, response, e);
+                ToastUtils.showToast(UserSettingAc.this, "退出登录失败，请稍候重试");
+            }
+        });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        handler.removeMessages(0);
+    }
+}

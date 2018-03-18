@@ -1,0 +1,60 @@
+package com.lingang.adapter;
+
+import android.content.Context;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.lingang.R;
+import com.lingang.base.RecycleBaseAdapter;
+import com.lingang.bean.BusinessBean;
+import com.lingang.glide.GlideImgManager;
+import com.lingang.http.HttpApi;
+import com.lingang.utils.adapterUtils.BaseViewHolder;
+
+import java.util.List;
+
+/**
+ * Created by Administrator on 2017/4/1 0001.
+ */
+
+public class BusinessAdapter extends RecycleBaseAdapter<BusinessBean.DataBean.ListBean> {
+    public BusinessAdapter(Context context, List<BusinessBean.DataBean.ListBean> data) {
+        super(context, data);
+    }
+
+    @Override
+    protected void convert(final BaseViewHolder holder, final BusinessBean.DataBean.ListBean item, int position) {
+        holder.setText(R.id.tv_title_clu, item.getBusinessName());
+
+        holder.setText(R.id.tv_num,item.getParkName());
+
+        if (item.getProjectState().equals("1")){
+            holder.setImageResource(R.id.img_state,R.mipmap.business_weikaishi);
+        }else if (item.getProjectState().equals("2")){//
+            holder.setImageResource(R.id.img_state,R.mipmap.business_jinxingzhong);
+        }else if (item.getProjectState().equals("3")){
+            holder.setImageResource(R.id.img_state,R.mipmap.business_yijieshu);
+        }
+
+        ImageView view = holder.getView(R.id.img_clu);
+        Context context = view.getContext();
+        GlideImgManager.glideLoaderNormal(context, HttpApi.IMAGE_BASE_SERVER + item.getImgPath(), view);
+        List<BusinessBean.DataBean.ListBean.LabelsBean> labels = item.getLabels();
+
+        RecyclerView rv_clu = holder.getView(R.id.rv_clu);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(context);
+        linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        rv_clu.setLayoutManager(linearLayoutManager);
+
+        BusinessTabAdapter listTabAdapter = new BusinessTabAdapter(context, labels);
+        rv_clu.setAdapter(listTabAdapter);
+    }
+
+
+    @Override
+    protected int getItemViewLayoutId(int position, BusinessBean.DataBean.ListBean item) {
+        return R.layout.itme_business;
+    }
+}
